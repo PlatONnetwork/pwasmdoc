@@ -1,0 +1,736 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: platon::db::List&lt; Name, Key &gt; 模板类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceplaton.html">platon</a></li><li class="navelem"><b>db</b></li><li class="navelem"><a class="el" href="classplaton_1_1db_1_1List.html">List</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="classplaton_1_1db_1_1List-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">platon::db::List&lt; Name, Key &gt; 模板类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementation list function  
+ <a href="classplaton_1_1db_1_1List.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="list_8hpp_source.html">list.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator  <a href="classplaton_1_1db_1_1List_1_1ConstIterator.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a>  <a href="classplaton_1_1db_1_1List_1_1Iterator.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:afd47391c273f76e39c9c62493a6eb99b"><td class="memItemLeft" align="right" valign="top"><a id="afd47391c273f76e39c9c62493a6eb99b"></a>
+typedef std::reverse_iterator&lt; <a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ReverseIterator</b></td></tr>
+<tr class="separator:afd47391c273f76e39c9c62493a6eb99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7edcf9f6eb28a9414773d49b1cb5cae5"><td class="memItemLeft" align="right" valign="top"><a id="a7edcf9f6eb28a9414773d49b1cb5cae5"></a>
+typedef std::reverse_iterator&lt; <a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ConstReverseIterator</b></td></tr>
+<tr class="separator:a7edcf9f6eb28a9414773d49b1cb5cae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:af3fdcc1259683bb7fcee77e3dfbee6bc"><td class="memItemLeft" align="right" valign="top"><a id="af3fdcc1259683bb7fcee77e3dfbee6bc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#af3fdcc1259683bb7fcee77e3dfbee6bc">List</a> ()</td></tr>
+<tr class="memdesc:af3fdcc1259683bb7fcee77e3dfbee6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> object <br /></td></tr>
+<tr class="separator:af3fdcc1259683bb7fcee77e3dfbee6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbb078ad0f040ac3b6346122689311a"><td class="memItemLeft" align="right" valign="top"><a id="a5bbb078ad0f040ac3b6346122689311a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>List</b> (const <a class="el" href="classplaton_1_1db_1_1List.html">List</a>&lt; Name, Key &gt; &amp;)=delete</td></tr>
+<tr class="separator:a5bbb078ad0f040ac3b6346122689311a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286bd9837a24c7001dda79177608ad6d"><td class="memItemLeft" align="right" valign="top"><a id="a286bd9837a24c7001dda79177608ad6d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>List</b> (const <a class="el" href="classplaton_1_1db_1_1List.html">List</a>&lt; Name, Key &gt; &amp;&amp;)=delete</td></tr>
+<tr class="separator:a286bd9837a24c7001dda79177608ad6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059df0ebefc6b836f054929c27ad6ba1"><td class="memItemLeft" align="right" valign="top"><a id="a059df0ebefc6b836f054929c27ad6ba1"></a>
+<a class="el" href="classplaton_1_1db_1_1List.html">List</a>&lt; Name, Key &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classplaton_1_1db_1_1List.html">List</a>&lt; Name, Key &gt; &amp;)=delete</td></tr>
+<tr class="separator:a059df0ebefc6b836f054929c27ad6ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a7bc75d15015fcdd4b552e812bba7c"><td class="memItemLeft" align="right" valign="top"><a id="ab0a7bc75d15015fcdd4b552e812bba7c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#ab0a7bc75d15015fcdd4b552e812bba7c">~List</a> ()</td></tr>
+<tr class="memdesc:ab0a7bc75d15015fcdd4b552e812bba7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> object. Refresh into the blockchain <br /></td></tr>
+<tr class="separator:ab0a7bc75d15015fcdd4b552e812bba7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0cb5fb8ee921543743482517823ce3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#ad0cb5fb8ee921543743482517823ce3d">begin</a> ()</td></tr>
+<tr class="memdesc:ad0cb5fb8ee921543743482517823ce3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> start position  <a href="#ad0cb5fb8ee921543743482517823ce3d">更多...</a><br /></td></tr>
+<tr class="separator:ad0cb5fb8ee921543743482517823ce3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299259883d23c9372ef33f0750c03961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a299259883d23c9372ef33f0750c03961">end</a> ()</td></tr>
+<tr class="memdesc:a299259883d23c9372ef33f0750c03961"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> end position  <a href="#a299259883d23c9372ef33f0750c03961">更多...</a><br /></td></tr>
+<tr class="separator:a299259883d23c9372ef33f0750c03961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ce18701973b9200906fd21897bd6b7"><td class="memItemLeft" align="right" valign="top">ReverseIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#ae7ce18701973b9200906fd21897bd6b7">rbegin</a> ()</td></tr>
+<tr class="memdesc:ae7ce18701973b9200906fd21897bd6b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse iterator start position  <a href="#ae7ce18701973b9200906fd21897bd6b7">更多...</a><br /></td></tr>
+<tr class="separator:ae7ce18701973b9200906fd21897bd6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b5e7c43f708109c60a0026c9b3ee9a"><td class="memItemLeft" align="right" valign="top">ReverseIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a94b5e7c43f708109c60a0026c9b3ee9a">rend</a> ()</td></tr>
+<tr class="memdesc:a94b5e7c43f708109c60a0026c9b3ee9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse iterator end position  <a href="#a94b5e7c43f708109c60a0026c9b3ee9a">更多...</a><br /></td></tr>
+<tr class="separator:a94b5e7c43f708109c60a0026c9b3ee9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a1ffc16076ae07e91d26fde8a2323b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#ad7a1ffc16076ae07e91d26fde8a2323b">cbegin</a> ()</td></tr>
+<tr class="memdesc:ad7a1ffc16076ae07e91d26fde8a2323b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator start position  <a href="#ad7a1ffc16076ae07e91d26fde8a2323b">更多...</a><br /></td></tr>
+<tr class="separator:ad7a1ffc16076ae07e91d26fde8a2323b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d941890166db1ea99004a885f8aaa99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a4d941890166db1ea99004a885f8aaa99">cend</a> ()</td></tr>
+<tr class="memdesc:a4d941890166db1ea99004a885f8aaa99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator end position  <a href="#a4d941890166db1ea99004a885f8aaa99">更多...</a><br /></td></tr>
+<tr class="separator:a4d941890166db1ea99004a885f8aaa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9843f6db4fccf5dd36695c94dadc1e75"><td class="memItemLeft" align="right" valign="top">ConstReverseIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a9843f6db4fccf5dd36695c94dadc1e75">crbegin</a> ()</td></tr>
+<tr class="memdesc:a9843f6db4fccf5dd36695c94dadc1e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse constant iterator start position  <a href="#a9843f6db4fccf5dd36695c94dadc1e75">更多...</a><br /></td></tr>
+<tr class="separator:a9843f6db4fccf5dd36695c94dadc1e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444116e61bf8882a91f983faf96d9b58"><td class="memItemLeft" align="right" valign="top">ConstReverseIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a444116e61bf8882a91f983faf96d9b58">crend</a> ()</td></tr>
+<tr class="memdesc:a444116e61bf8882a91f983faf96d9b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse constant iterator end position  <a href="#a444116e61bf8882a91f983faf96d9b58">更多...</a><br /></td></tr>
+<tr class="separator:a444116e61bf8882a91f983faf96d9b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad20f5f73992985a1a639aedc2700cbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#aad20f5f73992985a1a639aedc2700cbd">push</a> (const Key &amp;k)</td></tr>
+<tr class="memdesc:aad20f5f73992985a1a639aedc2700cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add element  <a href="#aad20f5f73992985a1a639aedc2700cbd">更多...</a><br /></td></tr>
+<tr class="separator:aad20f5f73992985a1a639aedc2700cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1789385d6d51a8e297fdf42d258fbe"><td class="memItemLeft" align="right" valign="top">Key &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a6b1789385d6d51a8e297fdf42d258fbe">get</a> (size_t index)</td></tr>
+<tr class="memdesc:a6b1789385d6d51a8e297fdf42d258fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the specified position element  <a href="#a6b1789385d6d51a8e297fdf42d258fbe">更多...</a><br /></td></tr>
+<tr class="separator:a6b1789385d6d51a8e297fdf42d258fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c31600530b65c4cb2989f6e365eb9a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a2c31600530b65c4cb2989f6e365eb9a1">del</a> (size_t index)</td></tr>
+<tr class="memdesc:a2c31600530b65c4cb2989f6e365eb9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete specified location element  <a href="#a2c31600530b65c4cb2989f6e365eb9a1">更多...</a><br /></td></tr>
+<tr class="separator:a2c31600530b65c4cb2989f6e365eb9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3253a9d89b531f721fa223d809c6b54c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a3253a9d89b531f721fa223d809c6b54c">del</a> (const Key &amp;delKey)</td></tr>
+<tr class="memdesc:a3253a9d89b531f721fa223d809c6b54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the element of the specified value  <a href="#a3253a9d89b531f721fa223d809c6b54c">更多...</a><br /></td></tr>
+<tr class="separator:a3253a9d89b531f721fa223d809c6b54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4bdf103fd3e62e3bad7850a5bc7e0c"><td class="memItemLeft" align="right" valign="top">Key &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a9a4bdf103fd3e62e3bad7850a5bc7e0c">operator[]</a> (size_t i)</td></tr>
+<tr class="memdesc:a9a4bdf103fd3e62e3bad7850a5bc7e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bracket operator  <a href="#a9a4bdf103fd3e62e3bad7850a5bc7e0c">更多...</a><br /></td></tr>
+<tr class="separator:a9a4bdf103fd3e62e3bad7850a5bc7e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637ef65d896389551aab80a3749fce91"><td class="memItemLeft" align="right" valign="top">Key&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a637ef65d896389551aab80a3749fce91">getConst</a> (size_t index)</td></tr>
+<tr class="memdesc:a637ef65d896389551aab80a3749fce91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the element value, not added to the cache  <a href="#a637ef65d896389551aab80a3749fce91">更多...</a><br /></td></tr>
+<tr class="separator:a637ef65d896389551aab80a3749fce91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b3e79f7abe73385a78592fa00fc543"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a46b3e79f7abe73385a78592fa00fc543">setConst</a> (size_t index, const Key &amp;key)</td></tr>
+<tr class="memdesc:a46b3e79f7abe73385a78592fa00fc543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify location value for element, no element to cache  <a href="#a46b3e79f7abe73385a78592fa00fc543">更多...</a><br /></td></tr>
+<tr class="separator:a46b3e79f7abe73385a78592fa00fc543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53fa3986677096a7611a934a53bb3c7a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1db_1_1List.html#a53fa3986677096a7611a934a53bb3c7a">size</a> ()</td></tr>
+<tr class="memdesc:a53fa3986677096a7611a934a53bb3c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> length  <a href="#a53fa3986677096a7611a934a53bb3c7a">更多...</a><br /></td></tr>
+<tr class="separator:a53fa3986677096a7611a934a53bb3c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a4ef7e71a81436653aa14ab0a3f2308ab"><td class="memItemLeft" align="right" valign="top"><a id="a4ef7e71a81436653aa14ab0a3f2308ab"></a>
+static const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>kType</b> = &quot;__list__&quot;</td></tr>
+<tr class="separator:a4ef7e71a81436653aa14ab0a3f2308ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;const char * Name, typename Key&gt;<br />
+class platon::db::List&lt; Name, Key &gt;</h3>
+
+<p>Implementation list function </p>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">*Name</td><td><a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> name, list name is guaranteed to be unique in the same contract </td></tr>
+    <tr><td class="paramname">Key</td><td><a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> element type </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a id="ad0cb5fb8ee921543743482517823ce3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0cb5fb8ee921543743482517823ce3d">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a> <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> start position </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> </dd></dl>
+
+</div>
+</div>
+<a id="ad7a1ffc16076ae07e91d26fde8a2323b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7a1ffc16076ae07e91d26fde8a2323b">&#9670;&nbsp;</a></span>cbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a> <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::cbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constant iterator start position </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html" title="Constant iterator">ConstIterator</a> </dd></dl>
+
+</div>
+</div>
+<a id="a4d941890166db1ea99004a885f8aaa99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d941890166db1ea99004a885f8aaa99">&#9670;&nbsp;</a></span>cend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html">ConstIterator</a> <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::cend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constant iterator end position </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classplaton_1_1db_1_1List_1_1ConstIterator.html" title="Constant iterator">ConstIterator</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9843f6db4fccf5dd36695c94dadc1e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9843f6db4fccf5dd36695c94dadc1e75">&#9670;&nbsp;</a></span>crbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConstReverseIterator <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::crbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inverse constant iterator start position </p>
+<dl class="section return"><dt>返回</dt><dd>ConstReverseIterator </dd></dl>
+
+</div>
+</div>
+<a id="a444116e61bf8882a91f983faf96d9b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444116e61bf8882a91f983faf96d9b58">&#9670;&nbsp;</a></span>crend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConstReverseIterator <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::crend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inverse constant iterator end position </p>
+<dl class="section return"><dt>返回</dt><dd>ConstReverseIterator </dd></dl>
+
+</div>
+</div>
+<a id="a2c31600530b65c4cb2989f6e365eb9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c31600530b65c4cb2989f6e365eb9a1">&#9670;&nbsp;</a></span>del() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::del </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete specified location element </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>element </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3253a9d89b531f721fa223d809c6b54c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3253a9d89b531f721fa223d809c6b54c">&#9670;&nbsp;</a></span>del() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::del </td>
+          <td>(</td>
+          <td class="paramtype">const Key &amp;&#160;</td>
+          <td class="paramname"><em>delKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete the element of the specified value </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delKey</td><td>Specified element value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a299259883d23c9372ef33f0750c03961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299259883d23c9372ef33f0750c03961">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html">Iterator</a> <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> end position </p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="classplaton_1_1db_1_1List_1_1Iterator.html" title="Iterator">Iterator</a> </dd></dl>
+
+</div>
+</div>
+<a id="a6b1789385d6d51a8e297fdf42d258fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b1789385d6d51a8e297fdf42d258fbe">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Key&amp; <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::get </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the specified position element </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Key&amp; element </dd></dl>
+
+</div>
+</div>
+<a id="a637ef65d896389551aab80a3749fce91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637ef65d896389551aab80a3749fce91">&#9670;&nbsp;</a></span>getConst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Key <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::getConst </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the element value, not added to the cache </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Key element </dd></dl>
+
+</div>
+</div>
+<a id="a9a4bdf103fd3e62e3bad7850a5bc7e0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4bdf103fd3e62e3bad7850a5bc7e0c">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Key&amp; <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bracket operator </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Key&amp; element </dd></dl>
+
+</div>
+</div>
+<a id="aad20f5f73992985a1a639aedc2700cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad20f5f73992985a1a639aedc2700cbd">&#9670;&nbsp;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">const Key &amp;&#160;</td>
+          <td class="paramname"><em>k</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add element </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td>element </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae7ce18701973b9200906fd21897bd6b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ce18701973b9200906fd21897bd6b7">&#9670;&nbsp;</a></span>rbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReverseIterator <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::rbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reverse iterator start position </p>
+<dl class="section return"><dt>返回</dt><dd>ReverseIterator </dd></dl>
+
+</div>
+</div>
+<a id="a94b5e7c43f708109c60a0026c9b3ee9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b5e7c43f708109c60a0026c9b3ee9a">&#9670;&nbsp;</a></span>rend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReverseIterator <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::rend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reverse iterator end position </p>
+<dl class="section return"><dt>返回</dt><dd>ReverseIterator </dd></dl>
+
+</div>
+</div>
+<a id="a46b3e79f7abe73385a78592fa00fc543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b3e79f7abe73385a78592fa00fc543">&#9670;&nbsp;</a></span>setConst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::setConst </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Key &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specify location value for element, no element to cache </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>position </td></tr>
+    <tr><td class="paramname">key</td><td>element </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a53fa3986677096a7611a934a53bb3c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53fa3986677096a7611a934a53bb3c7a">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;const char * Name, typename Key&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classplaton_1_1db_1_1List.html">platon::db::List</a>&lt; Name, Key &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classplaton_1_1db_1_1List.html" title="Implementation list function">List</a> length </p>
+<dl class="section return"><dt>返回</dt><dd>size_t </dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>platonlib/include/platon/db/<a class="el" href="list_8hpp_source.html">list.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

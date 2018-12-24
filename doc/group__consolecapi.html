@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: Console C API</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Console C API<div class="ingroups"><a class="el" href="group__consoleapi.html">Console API</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Defnes C API to log/print text messages  
+<a href="#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gaa99be0cc1b9e5cbbc2b12a43537e7ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaa99be0cc1b9e5cbbc2b12a43537e7ed3">prints</a> (const char *cstr)</td></tr>
+<tr class="memdesc:gaa99be0cc1b9e5cbbc2b12a43537e7ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints string  <a href="#gaa99be0cc1b9e5cbbc2b12a43537e7ed3">更多...</a><br /></td></tr>
+<tr class="separator:gaa99be0cc1b9e5cbbc2b12a43537e7ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63ff8a7c0b046968ab2864df7284c910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#ga63ff8a7c0b046968ab2864df7284c910">prints_l</a> (const char *cstr, uint32_t len)</td></tr>
+<tr class="memdesc:ga63ff8a7c0b046968ab2864df7284c910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints string  <a href="#ga63ff8a7c0b046968ab2864df7284c910">更多...</a><br /></td></tr>
+<tr class="separator:ga63ff8a7c0b046968ab2864df7284c910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac924af668edbf421d478edf203fdbd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaac924af668edbf421d478edf203fdbd1">printi</a> (int64_t value)</td></tr>
+<tr class="memdesc:gaac924af668edbf421d478edf203fdbd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as a 64 bit signed integer  <a href="#gaac924af668edbf421d478edf203fdbd1">更多...</a><br /></td></tr>
+<tr class="separator:gaac924af668edbf421d478edf203fdbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf5e50a1ade4fa863b171b6d5d35a124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaaf5e50a1ade4fa863b171b6d5d35a124">printui</a> (uint64_t value)</td></tr>
+<tr class="memdesc:gaaf5e50a1ade4fa863b171b6d5d35a124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as a 64 bit unsigned integer  <a href="#gaaf5e50a1ade4fa863b171b6d5d35a124">更多...</a><br /></td></tr>
+<tr class="separator:gaaf5e50a1ade4fa863b171b6d5d35a124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4adbc8b86dcd3f74d8ce745d8ebb7ab1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#ga4adbc8b86dcd3f74d8ce745d8ebb7ab1">printi128</a> (const int128_t *value)</td></tr>
+<tr class="memdesc:ga4adbc8b86dcd3f74d8ce745d8ebb7ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as a 128 bit signed integer  <a href="#ga4adbc8b86dcd3f74d8ce745d8ebb7ab1">更多...</a><br /></td></tr>
+<tr class="separator:ga4adbc8b86dcd3f74d8ce745d8ebb7ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf2e2eeabe47cd8667e6d8a2c08422e58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaf2e2eeabe47cd8667e6d8a2c08422e58">printui128</a> (const uint128_t *value)</td></tr>
+<tr class="memdesc:gaf2e2eeabe47cd8667e6d8a2c08422e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as a 128 bit unsigned integer  <a href="#gaf2e2eeabe47cd8667e6d8a2c08422e58">更多...</a><br /></td></tr>
+<tr class="separator:gaf2e2eeabe47cd8667e6d8a2c08422e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6ce2290f5439e28013a7b95db58e90b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaf6ce2290f5439e28013a7b95db58e90b">printsf</a> (float value)</td></tr>
+<tr class="memdesc:gaf6ce2290f5439e28013a7b95db58e90b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as single-precision floating point number (i.e. float)  <a href="#gaf6ce2290f5439e28013a7b95db58e90b">更多...</a><br /></td></tr>
+<tr class="separator:gaf6ce2290f5439e28013a7b95db58e90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea777842a3946bf2936e0d2d0ba95df2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaea777842a3946bf2936e0d2d0ba95df2">printdf</a> (double value)</td></tr>
+<tr class="memdesc:gaea777842a3946bf2936e0d2d0ba95df2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as double-precision floating point number (i.e. double)  <a href="#gaea777842a3946bf2936e0d2d0ba95df2">更多...</a><br /></td></tr>
+<tr class="separator:gaea777842a3946bf2936e0d2d0ba95df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee080c21e8af250573a9fb5f2d42da23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__consolecapi.html#gaee080c21e8af250573a9fb5f2d42da23">printqf</a> (const long double *value)</td></tr>
+<tr class="memdesc:gaee080c21e8af250573a9fb5f2d42da23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints value as quadruple-precision floating point number (i.e. long double)  <a href="#gaee080c21e8af250573a9fb5f2d42da23">更多...</a><br /></td></tr>
+<tr class="separator:gaee080c21e8af250573a9fb5f2d42da23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga578a703ccc378e8e24f62016b06cbc27"><td class="memItemLeft" align="right" valign="top"><a id="ga578a703ccc378e8e24f62016b06cbc27"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>printhex</b> (const void *data, uint32_t datalen)</td></tr>
+<tr class="separator:ga578a703ccc378e8e24f62016b06cbc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>Defnes C API to log/print text messages </p>
+<h2 class="groupheader">函数说明</h2>
+<a id="gaea777842a3946bf2936e0d2d0ba95df2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea777842a3946bf2936e0d2d0ba95df2">&#9670;&nbsp;</a></span>printdf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printdf </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as double-precision floating point number (i.e. double) </p>
+<p>Prints value as double-precision floating point number </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>of double to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">double</span> value = 5.0 / 10.0;</div><div class="line"><a class="code" href="group__consolecapi.html#gaea777842a3946bf2936e0d2d0ba95df2">printdf</a>(value); <span class="comment">// Output: 0.5</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaac924af668edbf421d478edf203fdbd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac924af668edbf421d478edf203fdbd1">&#9670;&nbsp;</a></span>printi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printi </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as a 64 bit signed integer </p>
+<p>Prints value as a 64 bit signed integer </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>of 64 bit signed integer to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><a class="code" href="group__consolecapi.html#gaac924af668edbf421d478edf203fdbd1">printi</a>(-1e+18); <span class="comment">// Output: -1000000000000000000</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ga4adbc8b86dcd3f74d8ce745d8ebb7ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4adbc8b86dcd3f74d8ce745d8ebb7ab1">&#9670;&nbsp;</a></span>printi128()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printi128 </td>
+          <td>(</td>
+          <td class="paramtype">const int128_t *&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as a 128 bit signed integer </p>
+<p>Prints value as a 128 bit signed integer </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>is a pointer to the 128 bit signed integer to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line">int128_t large_int(-87654323456);</div><div class="line"><a class="code" href="group__consolecapi.html#ga4adbc8b86dcd3f74d8ce745d8ebb7ab1">printi128</a>(&amp;large_int); <span class="comment">// Output: -87654323456</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaee080c21e8af250573a9fb5f2d42da23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee080c21e8af250573a9fb5f2d42da23">&#9670;&nbsp;</a></span>printqf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printqf </td>
+          <td>(</td>
+          <td class="paramtype">const long double *&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as quadruple-precision floating point number (i.e. long double) </p>
+<p>Prints value as quadruple-precision floating point number </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>is a pointer to the long double to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">long</span> <span class="keywordtype">double</span> value = 5.0 / 10.0;</div><div class="line"><a class="code" href="group__consolecapi.html#gaee080c21e8af250573a9fb5f2d42da23">printqf</a>(value); <span class="comment">// Output: 0.5</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaa99be0cc1b9e5cbbc2b12a43537e7ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa99be0cc1b9e5cbbc2b12a43537e7ed3">&#9670;&nbsp;</a></span>prints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void prints </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>cstr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints string </p>
+<p>Prints string </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cstr</td><td>- a null terminated string</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><a class="code" href="group__consolecapi.html#gaa99be0cc1b9e5cbbc2b12a43537e7ed3">prints</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>); <span class="comment">// Output: Hello World!</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ga63ff8a7c0b046968ab2864df7284c910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63ff8a7c0b046968ab2864df7284c910">&#9670;&nbsp;</a></span>prints_l()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void prints_l </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>cstr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints string </p>
+<p>Prints string up to given length </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cstr</td><td>- pointer to string </td></tr>
+    <tr><td class="paramname">len</td><td>- len of string to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><a class="code" href="group__consolecapi.html#ga63ff8a7c0b046968ab2864df7284c910">prints_l</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>, 5); <span class="comment">// Output: Hello</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaf6ce2290f5439e28013a7b95db58e90b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6ce2290f5439e28013a7b95db58e90b">&#9670;&nbsp;</a></span>printsf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printsf </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as single-precision floating point number (i.e. float) </p>
+<p>Prints value as single-precision floating point number </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>of float to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">float</span> value = 5.0 / 10.0;</div><div class="line"><a class="code" href="group__consolecapi.html#gaf6ce2290f5439e28013a7b95db58e90b">printsf</a>(value); <span class="comment">// Output: 0.5</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaaf5e50a1ade4fa863b171b6d5d35a124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf5e50a1ade4fa863b171b6d5d35a124">&#9670;&nbsp;</a></span>printui()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printui </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as a 64 bit unsigned integer </p>
+<p>Prints value as a 64 bit unsigned integer </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>of 64 bit unsigned integer to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line"><a class="code" href="group__consolecapi.html#gaaf5e50a1ade4fa863b171b6d5d35a124">printui</a>(1e+18); <span class="comment">// Output: 1000000000000000000</span></div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gaf2e2eeabe47cd8667e6d8a2c08422e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2e2eeabe47cd8667e6d8a2c08422e58">&#9670;&nbsp;</a></span>printui128()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printui128 </td>
+          <td>(</td>
+          <td class="paramtype">const uint128_t *&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints value as a 128 bit unsigned integer </p>
+<p>Prints value as a 128 bit unsigned integer </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>is a pointer to the 128 bit unsigned integer to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example:</p>
+<div class="fragment"><div class="line">uint128_t large_int(87654323456);</div><div class="line"><a class="code" href="group__consolecapi.html#gaf2e2eeabe47cd8667e6d8a2c08422e58">printui128</a>(&amp;large_int); <span class="comment">// Output: 87654323456</span></div></div><!-- fragment --> 
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

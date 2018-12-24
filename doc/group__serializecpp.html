@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: Serialize C++ API</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">Serialize C++ API<div class="ingroups"><a class="el" href="group__serialize.html">Serialize API</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Defines C++ API to serialize and deserialize object  
+<a href="#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:ga4aa46350b2851e793a9e74d73f9f567e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__serializecpp.html#ga4aa46350b2851e793a9e74d73f9f567e">PLATON_SERIALIZE</a>(TYPE,  MEMBERS)</td></tr>
+<tr class="memdesc:ga4aa46350b2851e793a9e74d73f9f567e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines serialization and deserialization for a class  <a href="#ga4aa46350b2851e793a9e74d73f9f567e">更多...</a><br /></td></tr>
+<tr class="separator:ga4aa46350b2851e793a9e74d73f9f567e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaed4f54427f96358512367a56210ed47"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__serializecpp.html#gaaed4f54427f96358512367a56210ed47">PLATON_SERIALIZE_DERIVED</a>(TYPE,  BASE,  MEMBERS)</td></tr>
+<tr class="memdesc:gaaed4f54427f96358512367a56210ed47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines serialization and deserialization for a class which inherits from other classes that have their serialization and deserialization defined  <a href="#gaaed4f54427f96358512367a56210ed47">更多...</a><br /></td></tr>
+<tr class="separator:gaaed4f54427f96358512367a56210ed47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>Defines C++ API to serialize and deserialize object </p>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="ga4aa46350b2851e793a9e74d73f9f567e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4aa46350b2851e793a9e74d73f9f567e">&#9670;&nbsp;</a></span>PLATON_SERIALIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PLATON_SERIALIZE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">TYPE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">MEMBERS&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> DS&gt; \</div><div class="line"> friend DS&amp; operator &lt;&lt; ( DS&amp; ds, <span class="keyword">const</span> TYPE&amp; t ){ \</div><div class="line">    return ds BOOST_PP_SEQ_FOR_EACH( PLATON_REFLECT_MEMBER_OP, &lt;&lt;, MEMBERS );\</div><div class="line"> }\</div><div class="line"> template&lt;typename DS&gt; \</div><div class="line"> friend DS&amp; operator &gt;&gt; ( DS&amp; ds, TYPE&amp; t ){ \</div><div class="line">    return ds BOOST_PP_SEQ_FOR_EACH( PLATON_REFLECT_MEMBER_OP, &gt;&gt;, MEMBERS );\</div><div class="line"> }</div></div><!-- fragment -->
+<p>Defines serialization and deserialization for a class </p>
+<p>Defines serialization and deserialization for a class</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TYPE</td><td>- the class to have its serialization and deserialization defined </td></tr>
+    <tr><td class="paramname">MEMBERS</td><td>- a sequence of member names. (field1)(field2)(field3) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaaed4f54427f96358512367a56210ed47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaed4f54427f96358512367a56210ed47">&#9670;&nbsp;</a></span>PLATON_SERIALIZE_DERIVED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PLATON_SERIALIZE_DERIVED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">TYPE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">BASE, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">MEMBERS&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> DS&gt; \</div><div class="line"> friend DS&amp; operator &lt;&lt; ( DS&amp; ds, <span class="keyword">const</span> TYPE&amp; t ){ \</div><div class="line">    ds &lt;&lt; static_cast&lt;const BASE&amp;&gt;(t); \</div><div class="line">    return ds BOOST_PP_SEQ_FOR_EACH( PLATON_REFLECT_MEMBER_OP, &lt;&lt;, MEMBERS );\</div><div class="line"> }\</div><div class="line"> template&lt;typename DS&gt; \</div><div class="line"> friend DS&amp; operator &gt;&gt; ( DS&amp; ds, TYPE&amp; t ){ \</div><div class="line">    ds &gt;&gt; static_cast&lt;BASE&amp;&gt;(t); \</div><div class="line">    return ds BOOST_PP_SEQ_FOR_EACH( PLATON_REFLECT_MEMBER_OP, &gt;&gt;, MEMBERS );\</div><div class="line"> }</div></div><!-- fragment -->
+<p>Defines serialization and deserialization for a class which inherits from other classes that have their serialization and deserialization defined </p>
+<p>Defines serialization and deserialization for a class which inherits from other classes that have their serialization and deserialization defined</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TYPE</td><td>- the class to have its serialization and deserialization defined </td></tr>
+    <tr><td class="paramname">BASE</td><td>- a sequence of base class names (basea)(baseb)(basec) </td></tr>
+    <tr><td class="paramname">MEMBERS</td><td>- a sequence of member names. (field1)(field2)(field3) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

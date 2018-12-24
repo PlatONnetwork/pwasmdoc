@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: platon::vector_ref&lt; _T &gt; 模板类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceplaton.html">platon</a></li><li class="navelem"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classplaton_1_1vector__ref-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">platon::vector_ref&lt; _T &gt; 模板类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="vector__ref_8h_source.html">vector_ref.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:aaae69550e0719f7afa8eef860bdaf42e"><td class="memItemLeft" align="right" valign="top"><a id="aaae69550e0719f7afa8eef860bdaf42e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = _T</td></tr>
+<tr class="separator:aaae69550e0719f7afa8eef860bdaf42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731a43489e584e06ac20d79e46b1a380"><td class="memItemLeft" align="right" valign="top"><a id="a731a43489e584e06ac20d79e46b1a380"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>element_type</b> = _T</td></tr>
+<tr class="separator:a731a43489e584e06ac20d79e46b1a380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932bca70517b393897c77d73ad0fb5bf"><td class="memItemLeft" align="right" valign="top"><a id="a932bca70517b393897c77d73ad0fb5bf"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>mutable_value_type</b> = typename std::conditional&lt; std::is_const&lt; _T &gt;::value, typename std::remove_const&lt; _T &gt;::type, _T &gt;::type</td></tr>
+<tr class="separator:a932bca70517b393897c77d73ad0fb5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a394c57a0b730eb5cc18c4f525f95d26f"><td class="memItemLeft" align="right" valign="top"><a id="a394c57a0b730eb5cc18c4f525f95d26f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a394c57a0b730eb5cc18c4f525f95d26f">vector_ref</a> (_T *_data, size_t _count)</td></tr>
+<tr class="memdesc:a394c57a0b730eb5cc18c4f525f95d26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> to point to <em>_count</em> elements starting at <em>_data</em>. <br /></td></tr>
+<tr class="separator:a394c57a0b730eb5cc18c4f525f95d26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ab7e9e80eef3f4da3a0120210ab2199"><td class="memItemLeft" align="right" valign="top"><a id="a7ab7e9e80eef3f4da3a0120210ab2199"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a7ab7e9e80eef3f4da3a0120210ab2199">vector_ref</a> (typename std::conditional&lt; std::is_const&lt; _T &gt;::value, std::string const *, std::string *&gt;::type _data)</td></tr>
+<tr class="memdesc:a7ab7e9e80eef3f4da3a0120210ab2199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> pointing to the data part of a string (given as pointer). <br /></td></tr>
+<tr class="separator:a7ab7e9e80eef3f4da3a0120210ab2199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af201af1423caab89099c6e27749b8147"><td class="memItemLeft" align="right" valign="top"><a id="af201af1423caab89099c6e27749b8147"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#af201af1423caab89099c6e27749b8147">vector_ref</a> (typename std::conditional&lt; std::is_const&lt; _T &gt;::value, std::vector&lt; typename std::remove_const&lt; _T &gt;::type &gt; const *, std::vector&lt; _T &gt; *&gt;::type _data)</td></tr>
+<tr class="memdesc:af201af1423caab89099c6e27749b8147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> pointing to the data part of a vector (given as pointer). <br /></td></tr>
+<tr class="separator:af201af1423caab89099c6e27749b8147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4394cfe8faa65c32c12fb2bff366b7"><td class="memItemLeft" align="right" valign="top"><a id="aed4394cfe8faa65c32c12fb2bff366b7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#aed4394cfe8faa65c32c12fb2bff366b7">vector_ref</a> (typename std::conditional&lt; std::is_const&lt; _T &gt;::value, std::string const &amp;, std::string &amp;&gt;::type _data)</td></tr>
+<tr class="memdesc:aed4394cfe8faa65c32c12fb2bff366b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> pointing to the data part of a string (given as reference). <br /></td></tr>
+<tr class="separator:aed4394cfe8faa65c32c12fb2bff366b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf75999ea2ca211ed5cf9b853ea30475"><td class="memItemLeft" align="right" valign="top"><a id="acf75999ea2ca211ed5cf9b853ea30475"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator bool</b> () const</td></tr>
+<tr class="separator:acf75999ea2ca211ed5cf9b853ea30475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b58fbbd095975013a630fd897986d4"><td class="memItemLeft" align="right" valign="top"><a id="aa4b58fbbd095975013a630fd897986d4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>contentsEqual</b> (std::vector&lt; mutable_value_type &gt; const &amp;_c) const</td></tr>
+<tr class="separator:aa4b58fbbd095975013a630fd897986d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab64708b437036b17acf72a50037ef9d4"><td class="memItemLeft" align="right" valign="top"><a id="ab64708b437036b17acf72a50037ef9d4"></a>
+std::vector&lt; mutable_value_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>toVector</b> () const</td></tr>
+<tr class="separator:ab64708b437036b17acf72a50037ef9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574eb9822338067c34ac55a83d57e1e5"><td class="memItemLeft" align="right" valign="top"><a id="a574eb9822338067c34ac55a83d57e1e5"></a>
+std::vector&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>toBytes</b> () const</td></tr>
+<tr class="separator:a574eb9822338067c34ac55a83d57e1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09eee47ba8fc43fa8bfcf52a1a054fc4"><td class="memItemLeft" align="right" valign="top"><a id="a09eee47ba8fc43fa8bfcf52a1a054fc4"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> () const</td></tr>
+<tr class="separator:a09eee47ba8fc43fa8bfcf52a1a054fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8e21896f413a9e112e46cf604270a1b"><td class="memTemplParams" colspan="2"><a id="aa8e21896f413a9e112e46cf604270a1b"></a>
+template&lt;class _T2 &gt; </td></tr>
+<tr class="memitem:aa8e21896f413a9e112e46cf604270a1b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator vector_ref&lt; _T2 &gt;</b> () const</td></tr>
+<tr class="separator:aa8e21896f413a9e112e46cf604270a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3fdffd59aeae5d259a548cc00be254"><td class="memItemLeft" align="right" valign="top"><a id="aba3fdffd59aeae5d259a548cc00be254"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator vector_ref&lt; _T const &gt;</b> () const</td></tr>
+<tr class="separator:aba3fdffd59aeae5d259a548cc00be254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8db3327dc0fb4dc1958d3e640268ea"><td class="memItemLeft" align="right" valign="top"><a id="afd8db3327dc0fb4dc1958d3e640268ea"></a>
+_T *&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> () const</td></tr>
+<tr class="separator:afd8db3327dc0fb4dc1958d3e640268ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef068a2f1aa5fdbedb2e70dd79973311"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#aef068a2f1aa5fdbedb2e70dd79973311">count</a> () const</td></tr>
+<tr class="separator:aef068a2f1aa5fdbedb2e70dd79973311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8f1092d3c63fbb258071dc6ede9925"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a2a8f1092d3c63fbb258071dc6ede9925">size</a> () const</td></tr>
+<tr class="separator:a2a8f1092d3c63fbb258071dc6ede9925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe7e160bd6c516109dd0d1ab2f996f0"><td class="memItemLeft" align="right" valign="top"><a id="adfe7e160bd6c516109dd0d1ab2f996f0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</td></tr>
+<tr class="separator:adfe7e160bd6c516109dd0d1ab2f996f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ba58131cd11c124dd150626f0110cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; _T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a4ba58131cd11c124dd150626f0110cde">next</a> () const</td></tr>
+<tr class="separator:a4ba58131cd11c124dd150626f0110cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf899d22edec2308609bbb0909e6e521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; _T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#abf899d22edec2308609bbb0909e6e521">cropped</a> (size_t _begin, size_t _count) const</td></tr>
+<tr class="separator:abf899d22edec2308609bbb0909e6e521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07d65b2ecdcedc42ac43df472758ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; _T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#af07d65b2ecdcedc42ac43df472758ea3">cropped</a> (size_t _begin) const</td></tr>
+<tr class="separator:af07d65b2ecdcedc42ac43df472758ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026b1b47a918bf71985f2fb5abcedfaf"><td class="memItemLeft" align="right" valign="top"><a id="a026b1b47a918bf71985f2fb5abcedfaf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>retarget</b> (_T *_d, size_t _s)</td></tr>
+<tr class="separator:a026b1b47a918bf71985f2fb5abcedfaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3425e8bfe5bcdd0b0083bd589eb23f"><td class="memItemLeft" align="right" valign="top"><a id="a5a3425e8bfe5bcdd0b0083bd589eb23f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>retarget</b> (std::vector&lt; _T &gt; const &amp;_t)</td></tr>
+<tr class="separator:a5a3425e8bfe5bcdd0b0083bd589eb23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18434311498093147e4c129d660b94eb"><td class="memTemplParams" colspan="2"><a id="a18434311498093147e4c129d660b94eb"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a18434311498093147e4c129d660b94eb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>overlapsWith</b> (<a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; T &gt; _t) const</td></tr>
+<tr class="separator:a18434311498093147e4c129d660b94eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7668b042b0ac48ae8fcffbce0ff3a24"><td class="memItemLeft" align="right" valign="top"><a id="ab7668b042b0ac48ae8fcffbce0ff3a24"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#ab7668b042b0ac48ae8fcffbce0ff3a24">copyTo</a> (<a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; typename std::remove_const&lt; _T &gt;::type &gt; _t) const</td></tr>
+<tr class="memdesc:ab7668b042b0ac48ae8fcffbce0ff3a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the contents of this <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> to the contents of <em>_t</em>, up to the max size of <em>_t</em>. <br /></td></tr>
+<tr class="separator:ab7668b042b0ac48ae8fcffbce0ff3a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677bb57dbd743bc2ece4c6152c2edc15"><td class="memItemLeft" align="right" valign="top"><a id="a677bb57dbd743bc2ece4c6152c2edc15"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a677bb57dbd743bc2ece4c6152c2edc15">populate</a> (<a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; typename std::remove_const&lt; _T &gt;::type &gt; _t) const</td></tr>
+<tr class="memdesc:a677bb57dbd743bc2ece4c6152c2edc15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the contents of this <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> to the contents of <em>_t</em>, and zeros further trailing elements in <em>_t</em>. <br /></td></tr>
+<tr class="separator:a677bb57dbd743bc2ece4c6152c2edc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a475d6fe42eef1f35f462d87971e183af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1vector__ref.html#a475d6fe42eef1f35f462d87971e183af">cleanse</a> ()</td></tr>
+<tr class="separator:a475d6fe42eef1f35f462d87971e183af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bca227a8df69da840b7b53bf72e69b3"><td class="memItemLeft" align="right" valign="top"><a id="a7bca227a8df69da840b7b53bf72e69b3"></a>
+_T *&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
+<tr class="separator:a7bca227a8df69da840b7b53bf72e69b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c04cebf641c1e41e5a11cb337956fb"><td class="memItemLeft" align="right" valign="top"><a id="a82c04cebf641c1e41e5a11cb337956fb"></a>
+_T *&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="separator:a82c04cebf641c1e41e5a11cb337956fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd05a6b78c0577826a5833b00e512e3e"><td class="memItemLeft" align="right" valign="top"><a id="afd05a6b78c0577826a5833b00e512e3e"></a>
+_T const  *&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> () const</td></tr>
+<tr class="separator:afd05a6b78c0577826a5833b00e512e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55550fca21372d0fac1a27bd1acd62ca"><td class="memItemLeft" align="right" valign="top"><a id="a55550fca21372d0fac1a27bd1acd62ca"></a>
+_T const  *&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> () const</td></tr>
+<tr class="separator:a55550fca21372d0fac1a27bd1acd62ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7100e831b8131643c393c85fa0032598"><td class="memItemLeft" align="right" valign="top"><a id="a7100e831b8131643c393c85fa0032598"></a>
+_T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (size_t _i)</td></tr>
+<tr class="separator:a7100e831b8131643c393c85fa0032598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8a5b2b2715205187042f28e4e24382"><td class="memItemLeft" align="right" valign="top"><a id="ace8a5b2b2715205187042f28e4e24382"></a>
+_T const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (size_t _i) const</td></tr>
+<tr class="separator:ace8a5b2b2715205187042f28e4e24382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2283b43e53d2861280e2c941408c3d8e"><td class="memItemLeft" align="right" valign="top"><a id="a2283b43e53d2861280e2c941408c3d8e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; _T &gt; const &amp;_cmp) const</td></tr>
+<tr class="separator:a2283b43e53d2861280e2c941408c3d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf76c46d4d334abb7a4806c37ed21408"><td class="memItemLeft" align="right" valign="top"><a id="adf76c46d4d334abb7a4806c37ed21408"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (<a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt; _T &gt; const &amp;_cmp) const</td></tr>
+<tr class="separator:adf76c46d4d334abb7a4806c37ed21408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab20f4230afeb2af96bf41f1e2f514c"><td class="memItemLeft" align="right" valign="top"><a id="a6ab20f4230afeb2af96bf41f1e2f514c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a6ab20f4230afeb2af96bf41f1e2f514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;class _T&gt;<br />
+class platon::vector_ref&lt; _T &gt;</h3>
+
+<p>A modifiable reference to an existing object or vector in memory. </p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a id="a475d6fe42eef1f35f462d87971e183af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a475d6fe42eef1f35f462d87971e183af">&#9670;&nbsp;</a></span>cleanse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::cleanse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Securely overwrite the memory. </p><dl class="section note"><dt>注解</dt><dd>adapted from OpenSSL's implementation. </dd></dl>
+
+</div>
+</div>
+<a id="aef068a2f1aa5fdbedb2e70dd79973311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef068a2f1aa5fdbedb2e70dd79973311">&#9670;&nbsp;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the number of elements referenced (not necessarily number of bytes). </dd></dl>
+
+</div>
+</div>
+<a id="abf899d22edec2308609bbb0909e6e521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf899d22edec2308609bbb0909e6e521">&#9670;&nbsp;</a></span>cropped() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt;_T&gt; <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::cropped </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>_begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>_count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> which is a shifted and shortened view of the original data. If this goes out of bounds in any way, returns an empty <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>. If <em>_count</em> is ~size_t(0), extends the view to the end of the data. </dd></dl>
+
+</div>
+</div>
+<a id="af07d65b2ecdcedc42ac43df472758ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07d65b2ecdcedc42ac43df472758ea3">&#9670;&nbsp;</a></span>cropped() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt;_T&gt; <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::cropped </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>_begin</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> which is a shifted view of the original data (not going beyond it). </dd></dl>
+
+</div>
+</div>
+<a id="a4ba58131cd11c124dd150626f0110cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba58131cd11c124dd150626f0110cde">&#9670;&nbsp;</a></span>next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a>&lt;_T&gt; <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>a new <a class="el" href="classplaton_1_1vector__ref.html">vector_ref</a> pointing at the next chunk of <em><a class="el" href="classplaton_1_1vector__ref.html#a2a8f1092d3c63fbb258071dc6ede9925">size()</a></em> elements. </dd></dl>
+
+</div>
+</div>
+<a id="a2a8f1092d3c63fbb258071dc6ede9925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8f1092d3c63fbb258071dc6ede9925">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classplaton_1_1vector__ref.html">platon::vector_ref</a>&lt; _T &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the number of elements referenced (not necessarily number of bytes). </dd></dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>platonlib/include/platon/<a class="el" href="vector__ref_8h_source.html">vector_ref.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

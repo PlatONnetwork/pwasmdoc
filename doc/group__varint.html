@@ -1,0 +1,1980 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: Variable Length Integer Type</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#func-members">函数</a> &#124;
+<a href="#var-members">变量</a> &#124;
+<a href="#friend-members">友元</a>  </div>
+  <div class="headertitle">
+<div class="title">Variable Length Integer Type</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Defines variable length integer type which provides more efficient serialization/  
+<a href="#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structunsigned__int.html">unsigned_int</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable Length Unsigned Integer  <a href="structunsigned__int.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsigned__int.html">signed_int</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable Length Signed Integer  <a href="structsigned__int.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gaaaeee21167478df0b454f001d0567cd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaaaeee21167478df0b454f001d0567cd7">unsigned_int::unsigned_int</a> (uint32_t v=0)</td></tr>
+<tr class="memdesc:gaaaeee21167478df0b454f001d0567cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new unsigned int object  <a href="#gaaaeee21167478df0b454f001d0567cd7">更多...</a><br /></td></tr>
+<tr class="separator:gaaaeee21167478df0b454f001d0567cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadda0360df1de313f0df5c5570aebdfdd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadda0360df1de313f0df5c5570aebdfdd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#gadda0360df1de313f0df5c5570aebdfdd">unsigned_int::unsigned_int</a> (T v)</td></tr>
+<tr class="memdesc:gadda0360df1de313f0df5c5570aebdfdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new unsigned int object  <a href="#gadda0360df1de313f0df5c5570aebdfdd">更多...</a><br /></td></tr>
+<tr class="separator:gadda0360df1de313f0df5c5570aebdfdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5627f0b22068d1761f2e416e7ae64a3c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga5627f0b22068d1761f2e416e7ae64a3c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#ga5627f0b22068d1761f2e416e7ae64a3c">unsigned_int::operator T</a> () const</td></tr>
+<tr class="memdesc:ga5627f0b22068d1761f2e416e7ae64a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion Operator  <a href="#ga5627f0b22068d1761f2e416e7ae64a3c">更多...</a><br /></td></tr>
+<tr class="separator:ga5627f0b22068d1761f2e416e7ae64a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d9250cd41ed15bd3b04a1f003f41154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga7d9250cd41ed15bd3b04a1f003f41154">unsigned_int::operator=</a> (uint32_t v)</td></tr>
+<tr class="memdesc:ga7d9250cd41ed15bd3b04a1f003f41154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator  <a href="#ga7d9250cd41ed15bd3b04a1f003f41154">更多...</a><br /></td></tr>
+<tr class="separator:ga7d9250cd41ed15bd3b04a1f003f41154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb8e4505fb74ac10c901ef905ff82d2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaeb8e4505fb74ac10c901ef905ff82d2e">signed_int::signed_int</a> (int32_t v=0)</td></tr>
+<tr class="memdesc:gaeb8e4505fb74ac10c901ef905ff82d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new signed int object  <a href="#gaeb8e4505fb74ac10c901ef905ff82d2e">更多...</a><br /></td></tr>
+<tr class="separator:gaeb8e4505fb74ac10c901ef905ff82d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe5db7c1297bb56cc454fe413959c07c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gafe5db7c1297bb56cc454fe413959c07c">signed_int::operator int32_t</a> () const</td></tr>
+<tr class="memdesc:gafe5db7c1297bb56cc454fe413959c07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion operator  <a href="#gafe5db7c1297bb56cc454fe413959c07c">更多...</a><br /></td></tr>
+<tr class="separator:gafe5db7c1297bb56cc454fe413959c07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94d683e2056158e266f64ac0cd60ecaf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga94d683e2056158e266f64ac0cd60ecaf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#ga94d683e2056158e266f64ac0cd60ecaf">signed_int::operator=</a> (const T &amp;v)</td></tr>
+<tr class="memdesc:ga94d683e2056158e266f64ac0cd60ecaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator  <a href="#ga94d683e2056158e266f64ac0cd60ecaf">更多...</a><br /></td></tr>
+<tr class="separator:ga94d683e2056158e266f64ac0cd60ecaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21a8dab0e714a1bac2cbd91810ac6a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsigned__int.html">signed_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga21a8dab0e714a1bac2cbd91810ac6a77">signed_int::operator++</a> (int)</td></tr>
+<tr class="memdesc:ga21a8dab0e714a1bac2cbd91810ac6a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator  <a href="#ga21a8dab0e714a1bac2cbd91810ac6a77">更多...</a><br /></td></tr>
+<tr class="separator:ga21a8dab0e714a1bac2cbd91810ac6a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga364a6dedb3372b0c318d0954ba0909d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga364a6dedb3372b0c318d0954ba0909d3">signed_int::operator++</a> ()</td></tr>
+<tr class="memdesc:ga364a6dedb3372b0c318d0954ba0909d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator  <a href="#ga364a6dedb3372b0c318d0954ba0909d3">更多...</a><br /></td></tr>
+<tr class="separator:ga364a6dedb3372b0c318d0954ba0909d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:ga247200b83e3cb2019efb8569a7e3937a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga247200b83e3cb2019efb8569a7e3937a">unsigned_int::value</a></td></tr>
+<tr class="memdesc:ga247200b83e3cb2019efb8569a7e3937a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contained value  <a href="#ga247200b83e3cb2019efb8569a7e3937a">更多...</a><br /></td></tr>
+<tr class="separator:ga247200b83e3cb2019efb8569a7e3937a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa943a3c55006fb2cc4e88afd6edc1755"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaa943a3c55006fb2cc4e88afd6edc1755">signed_int::value</a></td></tr>
+<tr class="memdesc:gaa943a3c55006fb2cc4e88afd6edc1755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contained value  <a href="#gaa943a3c55006fb2cc4e88afd6edc1755">更多...</a><br /></td></tr>
+<tr class="separator:gaa943a3c55006fb2cc4e88afd6edc1755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friend-members"></a>
+友元</h2></td></tr>
+<tr class="memitem:ga08687d9bd50d9dec64808a19580f2a47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga08687d9bd50d9dec64808a19580f2a47">unsigned_int::operator==</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const uint32_t &amp;v)</td></tr>
+<tr class="memdesc:ga08687d9bd50d9dec64808a19580f2a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga08687d9bd50d9dec64808a19580f2a47">更多...</a><br /></td></tr>
+<tr class="separator:ga08687d9bd50d9dec64808a19580f2a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c6aae02c0e6500d98d56544b4c49da0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga8c6aae02c0e6500d98d56544b4c49da0">unsigned_int::operator==</a> (const uint32_t &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga8c6aae02c0e6500d98d56544b4c49da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga8c6aae02c0e6500d98d56544b4c49da0">更多...</a><br /></td></tr>
+<tr class="separator:ga8c6aae02c0e6500d98d56544b4c49da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd87b4023be256deec5ac1afe4faf17c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gadd87b4023be256deec5ac1afe4faf17c">unsigned_int::operator==</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gadd87b4023be256deec5ac1afe4faf17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#gadd87b4023be256deec5ac1afe4faf17c">更多...</a><br /></td></tr>
+<tr class="separator:gadd87b4023be256deec5ac1afe4faf17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53410718318d48dd4e6279103b351663"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga53410718318d48dd4e6279103b351663">unsigned_int::operator!=</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const uint32_t &amp;v)</td></tr>
+<tr class="memdesc:ga53410718318d48dd4e6279103b351663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality Operator  <a href="#ga53410718318d48dd4e6279103b351663">更多...</a><br /></td></tr>
+<tr class="separator:ga53410718318d48dd4e6279103b351663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f618b0b2975a066c658435fb7eca0f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga1f618b0b2975a066c658435fb7eca0f9">unsigned_int::operator!=</a> (const uint32_t &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga1f618b0b2975a066c658435fb7eca0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga1f618b0b2975a066c658435fb7eca0f9">更多...</a><br /></td></tr>
+<tr class="separator:ga1f618b0b2975a066c658435fb7eca0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga897385977d9c06e539a1c19dbdffb5ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga897385977d9c06e539a1c19dbdffb5ec">unsigned_int::operator!=</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga897385977d9c06e539a1c19dbdffb5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality Operator  <a href="#ga897385977d9c06e539a1c19dbdffb5ec">更多...</a><br /></td></tr>
+<tr class="separator:ga897385977d9c06e539a1c19dbdffb5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ff316df3fa8ffdc0886d48e4d50e7f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga1ff316df3fa8ffdc0886d48e4d50e7f2">unsigned_int::operator&lt;</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const uint32_t &amp;v)</td></tr>
+<tr class="memdesc:ga1ff316df3fa8ffdc0886d48e4d50e7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#ga1ff316df3fa8ffdc0886d48e4d50e7f2">更多...</a><br /></td></tr>
+<tr class="separator:ga1ff316df3fa8ffdc0886d48e4d50e7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9672c0a7766d6491003103052ddc692b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga9672c0a7766d6491003103052ddc692b">unsigned_int::operator&lt;</a> (const uint32_t &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga9672c0a7766d6491003103052ddc692b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#ga9672c0a7766d6491003103052ddc692b">更多...</a><br /></td></tr>
+<tr class="separator:ga9672c0a7766d6491003103052ddc692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c44ed2d978a1bdaf65166f98592192c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga5c44ed2d978a1bdaf65166f98592192c">unsigned_int::operator&lt;</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga5c44ed2d978a1bdaf65166f98592192c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#ga5c44ed2d978a1bdaf65166f98592192c">更多...</a><br /></td></tr>
+<tr class="separator:ga5c44ed2d978a1bdaf65166f98592192c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf1274ffb924723bc12f17544159c799"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gabf1274ffb924723bc12f17544159c799">unsigned_int::operator&gt;=</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const uint32_t &amp;v)</td></tr>
+<tr class="memdesc:gabf1274ffb924723bc12f17544159c799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#gabf1274ffb924723bc12f17544159c799">更多...</a><br /></td></tr>
+<tr class="separator:gabf1274ffb924723bc12f17544159c799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6f6d75188bb59e24af40ff8aa4de947"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gad6f6d75188bb59e24af40ff8aa4de947">unsigned_int::operator&gt;=</a> (const uint32_t &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gad6f6d75188bb59e24af40ff8aa4de947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#gad6f6d75188bb59e24af40ff8aa4de947">更多...</a><br /></td></tr>
+<tr class="separator:gad6f6d75188bb59e24af40ff8aa4de947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaedda267438195592daa499b41727101a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaedda267438195592daa499b41727101a">unsigned_int::operator&gt;=</a> (const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;i, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gaedda267438195592daa499b41727101a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#gaedda267438195592daa499b41727101a">更多...</a><br /></td></tr>
+<tr class="separator:gaedda267438195592daa499b41727101a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3df4fdc722c22ec765f68db19116266e"><td class="memTemplParams" colspan="2">template&lt;typename DataStream &gt; </td></tr>
+<tr class="memitem:ga3df4fdc722c22ec765f68db19116266e"><td class="memTemplItemLeft" align="right" valign="top">DataStream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#ga3df4fdc722c22ec765f68db19116266e">unsigned_int::operator&lt;&lt;</a> (DataStream &amp;ds, const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga3df4fdc722c22ec765f68db19116266e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object with as few bytes as possible  <a href="#ga3df4fdc722c22ec765f68db19116266e">更多...</a><br /></td></tr>
+<tr class="separator:ga3df4fdc722c22ec765f68db19116266e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63b42b42b55b512f25e5fc9ec6e20787"><td class="memTemplParams" colspan="2">template&lt;typename DataStream &gt; </td></tr>
+<tr class="memitem:ga63b42b42b55b512f25e5fc9ec6e20787"><td class="memTemplItemLeft" align="right" valign="top">DataStream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#ga63b42b42b55b512f25e5fc9ec6e20787">unsigned_int::operator&gt;&gt;</a> (DataStream &amp;ds, <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;vi)</td></tr>
+<tr class="memdesc:ga63b42b42b55b512f25e5fc9ec6e20787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object  <a href="#ga63b42b42b55b512f25e5fc9ec6e20787">更多...</a><br /></td></tr>
+<tr class="separator:ga63b42b42b55b512f25e5fc9ec6e20787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e5690c7ad2505e2297e0e536a3ad740"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga7e5690c7ad2505e2297e0e536a3ad740">signed_int::operator==</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const int32_t &amp;v)</td></tr>
+<tr class="memdesc:ga7e5690c7ad2505e2297e0e536a3ad740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga7e5690c7ad2505e2297e0e536a3ad740">更多...</a><br /></td></tr>
+<tr class="separator:ga7e5690c7ad2505e2297e0e536a3ad740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec106017391627bd0e273592c18a0eb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaec106017391627bd0e273592c18a0eb5">signed_int::operator==</a> (const int32_t &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gaec106017391627bd0e273592c18a0eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#gaec106017391627bd0e273592c18a0eb5">更多...</a><br /></td></tr>
+<tr class="separator:gaec106017391627bd0e273592c18a0eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5612a3dbcbfd3d1fa335aa402c29ac35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga5612a3dbcbfd3d1fa335aa402c29ac35">signed_int::operator==</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga5612a3dbcbfd3d1fa335aa402c29ac35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga5612a3dbcbfd3d1fa335aa402c29ac35">更多...</a><br /></td></tr>
+<tr class="separator:ga5612a3dbcbfd3d1fa335aa402c29ac35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ee2f31815a95ec9ffd2ab7a7f02d524"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga3ee2f31815a95ec9ffd2ab7a7f02d524">signed_int::operator!=</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const int32_t &amp;v)</td></tr>
+<tr class="memdesc:ga3ee2f31815a95ec9ffd2ab7a7f02d524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality Operator  <a href="#ga3ee2f31815a95ec9ffd2ab7a7f02d524">更多...</a><br /></td></tr>
+<tr class="separator:ga3ee2f31815a95ec9ffd2ab7a7f02d524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6abfcdc55171168e5679ccd9f37ba471"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga6abfcdc55171168e5679ccd9f37ba471">signed_int::operator!=</a> (const int32_t &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga6abfcdc55171168e5679ccd9f37ba471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality Operator  <a href="#ga6abfcdc55171168e5679ccd9f37ba471">更多...</a><br /></td></tr>
+<tr class="separator:ga6abfcdc55171168e5679ccd9f37ba471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e25feb014836d0288a262e5d488533c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga6e25feb014836d0288a262e5d488533c">signed_int::operator!=</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:ga6e25feb014836d0288a262e5d488533c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality Operator  <a href="#ga6e25feb014836d0288a262e5d488533c">更多...</a><br /></td></tr>
+<tr class="separator:ga6e25feb014836d0288a262e5d488533c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbae5ebcac1cb6ed6a7547a427c7cf95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gadbae5ebcac1cb6ed6a7547a427c7cf95">signed_int::operator&lt;</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const int32_t &amp;v)</td></tr>
+<tr class="memdesc:gadbae5ebcac1cb6ed6a7547a427c7cf95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#gadbae5ebcac1cb6ed6a7547a427c7cf95">更多...</a><br /></td></tr>
+<tr class="separator:gadbae5ebcac1cb6ed6a7547a427c7cf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0ebf886eb4f8bd58f41626bfc2d88b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gae0ebf886eb4f8bd58f41626bfc2d88b7">signed_int::operator&lt;</a> (const int32_t &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gae0ebf886eb4f8bd58f41626bfc2d88b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#gae0ebf886eb4f8bd58f41626bfc2d88b7">更多...</a><br /></td></tr>
+<tr class="separator:gae0ebf886eb4f8bd58f41626bfc2d88b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2eea5a817b5774997100c0cdb8c81d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gac2eea5a817b5774997100c0cdb8c81d2">signed_int::operator&lt;</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gac2eea5a817b5774997100c0cdb8c81d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than Operator  <a href="#gac2eea5a817b5774997100c0cdb8c81d2">更多...</a><br /></td></tr>
+<tr class="separator:gac2eea5a817b5774997100c0cdb8c81d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b7eb30fe9fdbc1f375309719ad8248c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#ga0b7eb30fe9fdbc1f375309719ad8248c">signed_int::operator&gt;=</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const int32_t &amp;v)</td></tr>
+<tr class="memdesc:ga0b7eb30fe9fdbc1f375309719ad8248c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#ga0b7eb30fe9fdbc1f375309719ad8248c">更多...</a><br /></td></tr>
+<tr class="separator:ga0b7eb30fe9fdbc1f375309719ad8248c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaccb4bcf54dbdec11cdcbd06167d677c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gaccb4bcf54dbdec11cdcbd06167d677c9">signed_int::operator&gt;=</a> (const int32_t &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gaccb4bcf54dbdec11cdcbd06167d677c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#gaccb4bcf54dbdec11cdcbd06167d677c9">更多...</a><br /></td></tr>
+<tr class="separator:gaccb4bcf54dbdec11cdcbd06167d677c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab249950f493a3623cf845633e07df502"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__varint.html#gab249950f493a3623cf845633e07df502">signed_int::operator&gt;=</a> (const <a class="el" href="structsigned__int.html">signed_int</a> &amp;i, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gab249950f493a3623cf845633e07df502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater or Equal to Operator  <a href="#gab249950f493a3623cf845633e07df502">更多...</a><br /></td></tr>
+<tr class="separator:gab249950f493a3623cf845633e07df502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafabc024d2020505d135d9efbcf9e16a8"><td class="memTemplParams" colspan="2">template&lt;typename DataStream &gt; </td></tr>
+<tr class="memitem:gafabc024d2020505d135d9efbcf9e16a8"><td class="memTemplItemLeft" align="right" valign="top">DataStream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#gafabc024d2020505d135d9efbcf9e16a8">signed_int::operator&lt;&lt;</a> (DataStream &amp;ds, const <a class="el" href="structsigned__int.html">signed_int</a> &amp;v)</td></tr>
+<tr class="memdesc:gafabc024d2020505d135d9efbcf9e16a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object with as few bytes as possible  <a href="#gafabc024d2020505d135d9efbcf9e16a8">更多...</a><br /></td></tr>
+<tr class="separator:gafabc024d2020505d135d9efbcf9e16a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7eef08b0d7662636e1b0fa0f90bc8ccd"><td class="memTemplParams" colspan="2">template&lt;typename DataStream &gt; </td></tr>
+<tr class="memitem:ga7eef08b0d7662636e1b0fa0f90bc8ccd"><td class="memTemplItemLeft" align="right" valign="top">DataStream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__varint.html#ga7eef08b0d7662636e1b0fa0f90bc8ccd">signed_int::operator&gt;&gt;</a> (DataStream &amp;ds, <a class="el" href="structsigned__int.html">signed_int</a> &amp;vi)</td></tr>
+<tr class="memdesc:ga7eef08b0d7662636e1b0fa0f90bc8ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object  <a href="#ga7eef08b0d7662636e1b0fa0f90bc8ccd">更多...</a><br /></td></tr>
+<tr class="separator:ga7eef08b0d7662636e1b0fa0f90bc8ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>Defines variable length integer type which provides more efficient serialization</p>
+<p>/ </p>
+<h2 class="groupheader">函数说明</h2>
+<a id="gafe5db7c1297bb56cc454fe413959c07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe5db7c1297bb56cc454fe413959c07c">&#9670;&nbsp;</a></span>operator int32_t()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed_int::operator int32_t </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conversion operator </p>
+<p>Convert <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> to primitive 32-bit signed integer </p><dl class="section return"><dt>返回</dt><dd>int32_t - The converted result </dd></dl>
+
+</div>
+</div>
+<a id="ga5627f0b22068d1761f2e416e7ae64a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5627f0b22068d1761f2e416e7ae64a3c">&#9670;&nbsp;</a></span>operator T()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned_int::operator T </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conversion Operator </p>
+<p>Convert <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> as T </p><dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>- Target type of conversion </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>T - Converted target </dd></dl>
+
+</div>
+</div>
+<a id="ga21a8dab0e714a1bac2cbd91810ac6a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21a8dab0e714a1bac2cbd91810ac6a77">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsigned__int.html">signed_int</a> signed_int::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment operator </p>
+<p>Increment operator</p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> - New <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> with value incremented from the current object's value </dd></dl>
+
+</div>
+</div>
+<a id="ga364a6dedb3372b0c318d0954ba0909d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga364a6dedb3372b0c318d0954ba0909d3">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsigned__int.html">signed_int</a>&amp; signed_int::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment operator </p>
+<p>Increment operator</p>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> - Reference to current object </dd></dl>
+
+</div>
+</div>
+<a id="ga7d9250cd41ed15bd3b04a1f003f41154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d9250cd41ed15bd3b04a1f003f41154">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structunsigned__int.html">unsigned_int</a>&amp; unsigned_int::operator= </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment operator </p>
+<p>Assign 32-bit unsigned integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>- Soruce </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a>&amp; - Reference to this object </dd></dl>
+
+</div>
+</div>
+<a id="ga94d683e2056158e266f64ac0cd60ecaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94d683e2056158e266f64ac0cd60ecaf">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsigned__int.html">signed_int</a>&amp; signed_int::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment operator </p>
+<p>Assign an object that is convertible to int32_t</p>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>- Type of the assignment object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>- Source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd><a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a>&amp; - Reference to this object </dd></dl>
+
+</div>
+</div>
+<a id="gaeb8e4505fb74ac10c901ef905ff82d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb8e4505fb74ac10c901ef905ff82d2e">&#9670;&nbsp;</a></span>signed_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed_int::signed_int </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>v</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a new signed int object </p>
+<p>Construct a new signed int object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>- Source </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaaaeee21167478df0b454f001d0567cd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaaeee21167478df0b454f001d0567cd7">&#9670;&nbsp;</a></span>unsigned_int() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned_int::unsigned_int </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>v</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a new unsigned int object </p>
+<p>Construct a new unsigned int object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>- Source </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadda0360df1de313f0df5c5570aebdfdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadda0360df1de313f0df5c5570aebdfdd">&#9670;&nbsp;</a></span>unsigned_int() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned_int::unsigned_int </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a new unsigned int object </p>
+<p>Construct a new unsigned int object from a type that is convertible to uint32_t</p>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>- Type of the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>- Source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>前置条件</dt><dd>T must be convertible to uint32_t </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">变量说明</h2>
+<a id="ga247200b83e3cb2019efb8569a7e3937a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga247200b83e3cb2019efb8569a7e3937a">&#9670;&nbsp;</a></span>value <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t unsigned_int::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contained value </p>
+<p>Contained value </p>
+
+</div>
+</div>
+<a id="gaa943a3c55006fb2cc4e88afd6edc1755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa943a3c55006fb2cc4e88afd6edc1755">&#9670;&nbsp;</a></span>value <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t signed_int::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contained value </p>
+<p>Contained value </p>
+
+</div>
+</div>
+<h2 class="groupheader">友元</h2>
+<a id="ga53410718318d48dd4e6279103b351663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga53410718318d48dd4e6279103b351663">&#9670;&nbsp;</a></span>operator!= <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality Operator </p>
+<p>Check inequality between a <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object and 32-bit unsigned integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit unsigned integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if inequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga1f618b0b2975a066c658435fb7eca0f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1f618b0b2975a066c658435fb7eca0f9">&#9670;&nbsp;</a></span>operator!= <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check inequality between 32-bit unsigned integer and a <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit unsigned integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if unequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga897385977d9c06e539a1c19dbdffb5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga897385977d9c06e539a1c19dbdffb5ec">&#9670;&nbsp;</a></span>operator!= <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality Operator </p>
+<p>Check inequality between two <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> objects</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if inequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga3ee2f31815a95ec9ffd2ab7a7f02d524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ee2f31815a95ec9ffd2ab7a7f02d524">&#9670;&nbsp;</a></span>operator!= <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality Operator </p>
+<p>Check inequality between a <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object and 32-bit integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if inequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga6abfcdc55171168e5679ccd9f37ba471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6abfcdc55171168e5679ccd9f37ba471">&#9670;&nbsp;</a></span>operator!= <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check inequality between 32-bit integer and a <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if unequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga6e25feb014836d0288a262e5d488533c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e25feb014836d0288a262e5d488533c">&#9670;&nbsp;</a></span>operator!= <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality Operator </p>
+<p>Check inequality between two <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> objects</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if inequal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga1ff316df3fa8ffdc0886d48e4d50e7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ff316df3fa8ffdc0886d48e4d50e7f2">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object is less than the given 32-bit unsigned integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit unsigned integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga9672c0a7766d6491003103052ddc692b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9672c0a7766d6491003103052ddc692b">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the given 32-bit unsigned integer is less than the given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit unsigned integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga5c44ed2d978a1bdaf65166f98592192c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c44ed2d978a1bdaf65166f98592192c">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the first given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> is less than the second given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gadbae5ebcac1cb6ed6a7547a427c7cf95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbae5ebcac1cb6ed6a7547a427c7cf95">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object is less than the given 32-bit integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gae0ebf886eb4f8bd58f41626bfc2d88b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0ebf886eb4f8bd58f41626bfc2d88b7">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the given 32-bit integer is less than the given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gac2eea5a817b5774997100c0cdb8c81d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac2eea5a817b5774997100c0cdb8c81d2">&#9670;&nbsp;</a></span>operator&lt; <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than Operator </p>
+<p>Check if the first given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> is less than the second given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i less than v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga3df4fdc722c22ec765f68db19116266e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3df4fdc722c22ec765f68db19116266e">&#9670;&nbsp;</a></span>operator&lt;&lt; <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataStream &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">DataStream &amp;&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object with as few bytes as possible </p>
+<p>Serialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object with as few bytes as possible</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ds</td><td>- The stream to write </td></tr>
+    <tr><td class="paramname">v</td><td>- The value to serialize </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">DataStream</td><td>- Type of datastream </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>DataStream&amp; - Reference to the datastream </dd></dl>
+
+</div>
+</div>
+<a id="gafabc024d2020505d135d9efbcf9e16a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafabc024d2020505d135d9efbcf9e16a8">&#9670;&nbsp;</a></span>operator&lt;&lt; <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataStream &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">DataStream &amp;&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object with as few bytes as possible </p>
+<p>Serialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object with as few bytes as possible</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ds</td><td>- The stream to write </td></tr>
+    <tr><td class="paramname">v</td><td>- The value to serialize </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">DataStream</td><td>- Type of datastream </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>DataStream&amp; - Reference to the datastream </dd></dl>
+
+</div>
+</div>
+<a id="ga08687d9bd50d9dec64808a19580f2a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08687d9bd50d9dec64808a19580f2a47">&#9670;&nbsp;</a></span>operator== <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between a <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object and 32-bit unsigned integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit unsigned integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga8c6aae02c0e6500d98d56544b4c49da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c6aae02c0e6500d98d56544b4c49da0">&#9670;&nbsp;</a></span>operator== <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between 32-bit unsigned integer and a <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit unsigned integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gadd87b4023be256deec5ac1afe4faf17c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd87b4023be256deec5ac1afe4faf17c">&#9670;&nbsp;</a></span>operator== <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between two <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> objects</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga7e5690c7ad2505e2297e0e536a3ad740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7e5690c7ad2505e2297e0e536a3ad740">&#9670;&nbsp;</a></span>operator== <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between a <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object and 32-bit integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gaec106017391627bd0e273592c18a0eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec106017391627bd0e273592c18a0eb5">&#9670;&nbsp;</a></span>operator== <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between 32-bit integer and a <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga5612a3dbcbfd3d1fa335aa402c29ac35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5612a3dbcbfd3d1fa335aa402c29ac35">&#9670;&nbsp;</a></span>operator== <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality Operator </p>
+<p>Check equality between two <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> objects</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if equal </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gabf1274ffb924723bc12f17544159c799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf1274ffb924723bc12f17544159c799">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object is greater or equal to the given 32-bit unsigned integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit unsigned integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gad6f6d75188bb59e24af40ff8aa4de947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6f6d75188bb59e24af40ff8aa4de947">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the given 32-bit unsigned integer is greater or equal to the given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit unsigned integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gaedda267438195592daa499b41727101a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedda267438195592daa499b41727101a">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the first given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> is greater or equal to the second given <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga0b7eb30fe9fdbc1f375309719ad8248c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b7eb30fe9fdbc1f375309719ad8248c">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object is greater or equal to the given 32-bit integer</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- 32-bit integer to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gaccb4bcf54dbdec11cdcbd06167d677c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccb4bcf54dbdec11cdcbd06167d677c9">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const int32_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the given 32-bit integer is greater or equal to the given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- 32-bit integer to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gab249950f493a3623cf845633e07df502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab249950f493a3623cf845633e07df502">&#9670;&nbsp;</a></span>operator&gt;= <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Greater or Equal to Operator </p>
+<p>Check if the first given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> is greater or equal to the second given <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>- First <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+    <tr><td class="paramname">v</td><td>- Second <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true - if i is greater or equal to v </dd>
+<dd>
+false - otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga63b42b42b55b512f25e5fc9ec6e20787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63b42b42b55b512f25e5fc9ec6e20787">&#9670;&nbsp;</a></span>operator&gt;&gt; <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataStream &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">DataStream &amp;&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structunsigned__int.html">unsigned_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>vi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deserialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object </p>
+<p>Deserialize an <a class="el" href="structunsigned__int.html" title="Variable Length Unsigned Integer">unsigned_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ds</td><td>- The stream to read </td></tr>
+    <tr><td class="paramname">vi</td><td>- The destination for deserialized value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">DataStream</td><td>- Type of datastream </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>DataStream&amp; - Reference to the datastream </dd></dl>
+
+</div>
+</div>
+<a id="ga7eef08b0d7662636e1b0fa0f90bc8ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7eef08b0d7662636e1b0fa0f90bc8ccd">&#9670;&nbsp;</a></span>operator&gt;&gt; <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataStream &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">DataStream &amp;&#160;</td>
+          <td class="paramname"><em>ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structsigned__int.html">signed_int</a> &amp;&#160;</td>
+          <td class="paramname"><em>vi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deserialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object </p>
+<p>Deserialize an <a class="el" href="structsigned__int.html" title="Variable Length Signed Integer">signed_int</a> object</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ds</td><td>- The stream to read </td></tr>
+    <tr><td class="paramname">vi</td><td>- The destination for deserialized value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">DataStream</td><td>- Type of datastream </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>DataStream&amp; - Reference to the datastream </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
