@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: platonlib/include/platon/storage.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6589235d7bfab823c6bd72b249b438d5.html">platonlib</a></li><li class="navelem"><a class="el" href="dir_392a3e38de451d5114374f041b6200bf.html">include</a></li><li class="navelem"><a class="el" href="dir_5e5fd175ed4d3921a94bdc2801b1dad9.html">platon</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">storage.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by zhou.yang on 2018/10/22.</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;common.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;datastream.h&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">void</span> setState(<span class="keyword">const</span> uint8_t* key, <span class="keywordtype">size_t</span> klen, <span class="keyword">const</span> uint8_t *value, <span class="keywordtype">size_t</span> vlen);</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">size_t</span> getStateSize(<span class="keyword">const</span> uint8_t* key, <span class="keywordtype">size_t</span> klen);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> getState(<span class="keyword">const</span> uint8_t* key, <span class="keywordtype">size_t</span> klen, uint8_t *value, <span class="keywordtype">size_t</span> vlen);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceplaton.html">platon</a> {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> KEY, <span class="keyword">typename</span> VALUE&gt;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="namespaceplaton.html#a0dc03ef85fbd210c48c45ce4c800175f">   31</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceplaton.html#a0dc03ef85fbd210c48c45ce4c800175f">setState</a>(<span class="keyword">const</span> KEY &amp;key, <span class="keyword">const</span> VALUE &amp;value) {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        std::vector&lt;char&gt; vecKey(<a class="code" href="group__DataStream.html#ga2eefd4292bfc7d8f85e424a53e0eb70b">pack_size</a>(key));</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        std::vector&lt;char&gt; vecValue(<a class="code" href="group__DataStream.html#ga2eefd4292bfc7d8f85e424a53e0eb70b">pack_size</a>(value));</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classplaton_1_1DataStream.html">DataStream&lt;char*&gt;</a> keyStream(vecKey.data(), vecKey.size());</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classplaton_1_1DataStream.html">DataStream&lt;char*&gt;</a> valueStream(vecValue.data(), vecValue.size());</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        keyStream &lt;&lt; key;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        valueStream &lt;&lt; value;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="namespaceplaton.html#a0dc03ef85fbd210c48c45ce4c800175f">::setState</a>((<span class="keyword">const</span> <span class="keywordtype">byte</span>*)vecKey.data(), vecKey.size(),  (<span class="keyword">const</span> <span class="keywordtype">byte</span>*)vecValue.data(), vecValue.size());</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> KEY, <span class="keyword">typename</span> VALUE&gt;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="namespaceplaton.html#abf84d52d11939a914228d02b8a22e8d5">   50</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code" href="namespaceplaton.html#abf84d52d11939a914228d02b8a22e8d5">getState</a>(<span class="keyword">const</span> KEY &amp;key, VALUE &amp;value) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        std::vector&lt;char&gt; vecKey(<a class="code" href="group__DataStream.html#ga2eefd4292bfc7d8f85e424a53e0eb70b">pack_size</a>(key));</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classplaton_1_1DataStream.html">DataStream&lt;char*&gt;</a> keyStream(vecKey.data(), vecKey.size());</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        keyStream &lt;&lt; key;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">size_t</span> len = ::getStateSize((<span class="keyword">const</span> <span class="keywordtype">byte</span>*)vecKey.data(), vecKey.size());</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> (len == 0){ <span class="keywordflow">return</span> 0; }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        std::vector&lt;char&gt; vecValue(len);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="namespaceplaton.html#abf84d52d11939a914228d02b8a22e8d5">::getState</a>((<span class="keyword">const</span> <span class="keywordtype">byte</span>*)vecKey.data(), vecKey.size(), (<span class="keywordtype">byte</span>*)vecValue.data(), vecValue.size());</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classplaton_1_1DataStream.html">DataStream&lt;char*&gt;</a> valueStream(vecValue.data(), vecValue.size());</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        valueStream &gt;&gt; value;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> len;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> KEY&gt;</div><div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="namespaceplaton.html#aad60cfe01d5dd6c8a52a39997270f365">   71</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceplaton.html#aad60cfe01d5dd6c8a52a39997270f365">delState</a>(<span class="keyword">const</span> KEY &amp;key) {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">byte</span> del = 0;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        std::vector&lt;char&gt; vecKey(<a class="code" href="group__DataStream.html#ga2eefd4292bfc7d8f85e424a53e0eb70b">pack_size</a>(key));</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="classplaton_1_1DataStream.html">DataStream&lt;char*&gt;</a> keyStream(vecKey.data(), vecKey.size());</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        keyStream &lt;&lt; key;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="namespaceplaton.html#a0dc03ef85fbd210c48c45ce4c800175f">::setState</a>((<span class="keyword">const</span> <span class="keywordtype">byte</span>*)vecKey.data(), vecKey.size(),  (<span class="keyword">const</span> <span class="keywordtype">byte</span>*)&amp;del, 0);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div><div class="ttc" id="namespaceplaton_html_a0dc03ef85fbd210c48c45ce4c800175f"><div class="ttname"><a href="namespaceplaton.html#a0dc03ef85fbd210c48c45ce4c800175f">platon::setState</a></div><div class="ttdeci">void setState(const KEY &amp;key, const VALUE &amp;value)</div><div class="ttdoc">Set the State object</div><div class="ttdef"><b>Definition:</b> storage.hpp:31</div></div>
+<div class="ttc" id="namespaceplaton_html"><div class="ttname"><a href="namespaceplaton.html">platon</a></div><div class="ttdoc">Transaction coding operation</div><div class="ttdef"><b>Definition:</b> assert.h:9</div></div>
+<div class="ttc" id="classplaton_1_1DataStream_html"><div class="ttname"><a href="classplaton_1_1DataStream.html">platon::DataStream</a></div><div class="ttdoc">A data stream for reading and writing data in the form of bytes.</div><div class="ttdef"><b>Definition:</b> datastream.h:33</div></div>
+<div class="ttc" id="group__DataStream_html_ga2eefd4292bfc7d8f85e424a53e0eb70b"><div class="ttname"><a href="group__DataStream.html#ga2eefd4292bfc7d8f85e424a53e0eb70b">platon::pack_size</a></div><div class="ttdeci">size_t pack_size(const T &amp;value)</div><div class="ttdoc">Get the size of the packed data</div><div class="ttdef"><b>Definition:</b> datastream.h:976</div></div>
+<div class="ttc" id="namespaceplaton_html_abf84d52d11939a914228d02b8a22e8d5"><div class="ttname"><a href="namespaceplaton.html#abf84d52d11939a914228d02b8a22e8d5">platon::getState</a></div><div class="ttdeci">size_t getState(const KEY &amp;key, VALUE &amp;value)</div><div class="ttdoc">Get the State object</div><div class="ttdef"><b>Definition:</b> storage.hpp:50</div></div>
+<div class="ttc" id="namespaceplaton_html_aad60cfe01d5dd6c8a52a39997270f365"><div class="ttname"><a href="namespaceplaton.html#aad60cfe01d5dd6c8a52a39997270f365">platon::delState</a></div><div class="ttdeci">void delState(const KEY &amp;key)</div><div class="ttdoc">delete State Object</div><div class="ttdef"><b>Definition:</b> storage.hpp:71</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

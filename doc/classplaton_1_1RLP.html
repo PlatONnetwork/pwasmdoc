@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PlatON LIB: platon::RLP类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PlatON LIB
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceplaton.html">platon</a></li><li class="navelem"><a class="el" href="classplaton_1_1RLP.html">RLP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classplaton_1_1RLP-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">platon::RLP类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="RLP_8h_source.html">RLP.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP_1_1iterator.html">iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator class for iterating through items of <a class="el" href="classplaton_1_1RLP.html">RLP</a> list.  <a href="classplaton_1_1RLP_1_1iterator.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a993f6ee7beea1184ec5881cdbff13e5a"><td class="memItemLeft" align="right" valign="top"><a id="a993f6ee7beea1184ec5881cdbff13e5a"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<b>AllowNonCanon</b> = 1, 
+<b>ThrowOnFail</b> = 4, 
+<b>FailIfTooBig</b> = 8, 
+<b>FailIfTooSmall</b> = 16, 
+<br />
+&#160;&#160;<b>Strict</b> = ThrowOnFail | FailIfTooBig, 
+<b>VeryStrict</b> = ThrowOnFail | FailIfTooBig | FailIfTooSmall, 
+<b>LaissezFaire</b> = AllowNonCanon
+<br />
+ }</td></tr>
+<tr class="memdesc:a993f6ee7beea1184ec5881cdbff13e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion flags <br /></td></tr>
+<tr class="separator:a993f6ee7beea1184ec5881cdbff13e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707691d32c4515027a591a7cd79c0cc2"><td class="memItemLeft" align="right" valign="top"><a id="a707691d32c4515027a591a7cd79c0cc2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Strictness</b> = int</td></tr>
+<tr class="separator:a707691d32c4515027a591a7cd79c0cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835552706aa370f33dfdf26614d3081b"><td class="memItemLeft" align="right" valign="top"><a id="a835552706aa370f33dfdf26614d3081b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>element_type</b> = <a class="el" href="classplaton_1_1RLP.html">RLP</a></td></tr>
+<tr class="separator:a835552706aa370f33dfdf26614d3081b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a88d476bbc0427ba2aa754025ff90cf52"><td class="memItemLeft" align="right" valign="top"><a id="a88d476bbc0427ba2aa754025ff90cf52"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a88d476bbc0427ba2aa754025ff90cf52">RLP</a> ()</td></tr>
+<tr class="memdesc:a88d476bbc0427ba2aa754025ff90cf52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a null node. <br /></td></tr>
+<tr class="separator:a88d476bbc0427ba2aa754025ff90cf52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684eaf8aab570e315e773f4cbba7afde"><td class="memItemLeft" align="right" valign="top"><a id="a684eaf8aab570e315e773f4cbba7afde"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a684eaf8aab570e315e773f4cbba7afde">RLP</a> (<a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a> _d, Strictness _s=VeryStrict)</td></tr>
+<tr class="memdesc:a684eaf8aab570e315e773f4cbba7afde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a node of value given in the bytes. <br /></td></tr>
+<tr class="separator:a684eaf8aab570e315e773f4cbba7afde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb981747d0ab64e991e3f2dcd72d915c"><td class="memItemLeft" align="right" valign="top"><a id="adb981747d0ab64e991e3f2dcd72d915c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#adb981747d0ab64e991e3f2dcd72d915c">RLP</a> (bytes const &amp;_d, Strictness _s=VeryStrict)</td></tr>
+<tr class="memdesc:adb981747d0ab64e991e3f2dcd72d915c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a node of value given in the bytes. <br /></td></tr>
+<tr class="separator:adb981747d0ab64e991e3f2dcd72d915c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526eefb459d5ad952dd752bd18adc330"><td class="memItemLeft" align="right" valign="top"><a id="a526eefb459d5ad952dd752bd18adc330"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a526eefb459d5ad952dd752bd18adc330">RLP</a> (byte const *_b, unsigned _s, Strictness _st=VeryStrict)</td></tr>
+<tr class="memdesc:a526eefb459d5ad952dd752bd18adc330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a node to read <a class="el" href="classplaton_1_1RLP.html">RLP</a> data in the bytes given. <br /></td></tr>
+<tr class="separator:a526eefb459d5ad952dd752bd18adc330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae12958ac3b12836995127fb73ce82fe9"><td class="memItemLeft" align="right" valign="top"><a id="ae12958ac3b12836995127fb73ce82fe9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#ae12958ac3b12836995127fb73ce82fe9">RLP</a> (std::string const &amp;_s, Strictness _st=VeryStrict)</td></tr>
+<tr class="memdesc:ae12958ac3b12836995127fb73ce82fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a node to read <a class="el" href="classplaton_1_1RLP.html">RLP</a> data in the string. <br /></td></tr>
+<tr class="separator:ae12958ac3b12836995127fb73ce82fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904445d6d9d81476c06be4bce15bfdf1"><td class="memItemLeft" align="right" valign="top"><a id="a904445d6d9d81476c06be4bce15bfdf1"></a>
+<a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a904445d6d9d81476c06be4bce15bfdf1">data</a> () const</td></tr>
+<tr class="memdesc:a904445d6d9d81476c06be4bce15bfdf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bare data of the <a class="el" href="classplaton_1_1RLP.html">RLP</a>. <br /></td></tr>
+<tr class="separator:a904445d6d9d81476c06be4bce15bfdf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86739630be285abad561783f32d65fb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a86739630be285abad561783f32d65fb2">operator bool</a> () const</td></tr>
+<tr class="separator:a86739630be285abad561783f32d65fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccd9d5bdbe53461beb6e675d02acb71"><td class="memItemLeft" align="right" valign="top"><a id="acccd9d5bdbe53461beb6e675d02acb71"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#acccd9d5bdbe53461beb6e675d02acb71">isNull</a> () const</td></tr>
+<tr class="memdesc:acccd9d5bdbe53461beb6e675d02acb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">No value. <br /></td></tr>
+<tr class="separator:acccd9d5bdbe53461beb6e675d02acb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecadbed4a2f6460a985c99dc977cbde"><td class="memItemLeft" align="right" valign="top"><a id="a7ecadbed4a2f6460a985c99dc977cbde"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a7ecadbed4a2f6460a985c99dc977cbde">isEmpty</a> () const</td></tr>
+<tr class="memdesc:a7ecadbed4a2f6460a985c99dc977cbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains a zero-length string or zero-length list. <br /></td></tr>
+<tr class="separator:a7ecadbed4a2f6460a985c99dc977cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e79010ac8953556d84c8a3b50f54ee"><td class="memItemLeft" align="right" valign="top"><a id="ad6e79010ac8953556d84c8a3b50f54ee"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#ad6e79010ac8953556d84c8a3b50f54ee">isData</a> () const</td></tr>
+<tr class="memdesc:ad6e79010ac8953556d84c8a3b50f54ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">String value. <br /></td></tr>
+<tr class="separator:ad6e79010ac8953556d84c8a3b50f54ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ff80d14e128184df5bbd2726c0e3e2"><td class="memItemLeft" align="right" valign="top"><a id="a91ff80d14e128184df5bbd2726c0e3e2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a91ff80d14e128184df5bbd2726c0e3e2">isList</a> () const</td></tr>
+<tr class="memdesc:a91ff80d14e128184df5bbd2726c0e3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List value. <br /></td></tr>
+<tr class="separator:a91ff80d14e128184df5bbd2726c0e3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28ae05e2ec02efbd0fe5e29c2695ab7"><td class="memItemLeft" align="right" valign="top"><a id="aa28ae05e2ec02efbd0fe5e29c2695ab7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#aa28ae05e2ec02efbd0fe5e29c2695ab7">isInt</a> () const</td></tr>
+<tr class="memdesc:aa28ae05e2ec02efbd0fe5e29c2695ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer value. Must not have a leading zero. <br /></td></tr>
+<tr class="separator:aa28ae05e2ec02efbd0fe5e29c2695ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a241095e84ce42e4c54c96f28abbae8bc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a241095e84ce42e4c54c96f28abbae8bc">itemCount</a> () const</td></tr>
+<tr class="separator:a241095e84ce42e4c54c96f28abbae8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c5ff3195239e87c465d3a695bc92e8"><td class="memItemLeft" align="right" valign="top"><a id="a38c5ff3195239e87c465d3a695bc92e8"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>itemCountStrict</b> () const</td></tr>
+<tr class="separator:a38c5ff3195239e87c465d3a695bc92e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f1726bc49887849c00cce50c58d531"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a08f1726bc49887849c00cce50c58d531">size</a> () const</td></tr>
+<tr class="separator:a08f1726bc49887849c00cce50c58d531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b3f918d8fedaeb74ecf237ead6fe77"><td class="memItemLeft" align="right" valign="top"><a id="ac3b3f918d8fedaeb74ecf237ead6fe77"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>sizeStrict</b> () const</td></tr>
+<tr class="separator:ac3b3f918d8fedaeb74ecf237ead6fe77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a769e4869d9d2ee42b331fa6c7d1b631f"><td class="memItemLeft" align="right" valign="top"><a id="a769e4869d9d2ee42b331fa6c7d1b631f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a769e4869d9d2ee42b331fa6c7d1b631f">operator==</a> (char const *_s) const</td></tr>
+<tr class="memdesc:a769e4869d9d2ee42b331fa6c7d1b631f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operators; does best-effort conversion and checks for equality. <br /></td></tr>
+<tr class="separator:a769e4869d9d2ee42b331fa6c7d1b631f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4a1ba5c3f1f55e8ab3c53f4f29c0a8"><td class="memItemLeft" align="right" valign="top"><a id="aeb4a1ba5c3f1f55e8ab3c53f4f29c0a8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (char const *_s) const</td></tr>
+<tr class="separator:aeb4a1ba5c3f1f55e8ab3c53f4f29c0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d3b13aa6465ee140efc1d92d2120da"><td class="memItemLeft" align="right" valign="top"><a id="ac9d3b13aa6465ee140efc1d92d2120da"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (std::string const &amp;_s) const</td></tr>
+<tr class="separator:ac9d3b13aa6465ee140efc1d92d2120da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa55276bdd94d82e3bb52e73628e5e3ce"><td class="memItemLeft" align="right" valign="top"><a id="aa55276bdd94d82e3bb52e73628e5e3ce"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (std::string const &amp;_s) const</td></tr>
+<tr class="separator:aa55276bdd94d82e3bb52e73628e5e3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6b516ca7a7a05a356ac627a114dcf3"><td class="memTemplParams" colspan="2"><a id="a8d6b516ca7a7a05a356ac627a114dcf3"></a>
+template&lt;unsigned _N &gt; </td></tr>
+<tr class="memitem:a8d6b516ca7a7a05a356ac627a114dcf3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="classplaton_1_1FixedHash.html">FixedHash</a>&lt; _N &gt; const &amp;_h) const</td></tr>
+<tr class="separator:a8d6b516ca7a7a05a356ac627a114dcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5119919044980d5dcdf7e97a85dc70a4"><td class="memTemplParams" colspan="2"><a id="a5119919044980d5dcdf7e97a85dc70a4"></a>
+template&lt;unsigned _N &gt; </td></tr>
+<tr class="memitem:a5119919044980d5dcdf7e97a85dc70a4"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator!=</b> (<a class="el" href="classplaton_1_1FixedHash.html">FixedHash</a>&lt; _N &gt; const &amp;_s) const</td></tr>
+<tr class="separator:a5119919044980d5dcdf7e97a85dc70a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a382c47d8a0766a19807629bd07af89"><td class="memItemLeft" align="right" valign="top"><a id="a8a382c47d8a0766a19807629bd07af89"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (unsigned const &amp;_i) const</td></tr>
+<tr class="separator:a8a382c47d8a0766a19807629bd07af89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d98b46d4f5cab54c4d774636193e66"><td class="memItemLeft" align="right" valign="top"><a id="a30d98b46d4f5cab54c4d774636193e66"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (unsigned const &amp;_i) const</td></tr>
+<tr class="separator:a30d98b46d4f5cab54c4d774636193e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad52ddb68a5db638162dc4d8fcf51fc7a"><td class="memItemLeft" align="right" valign="top"><a id="ad52ddb68a5db638162dc4d8fcf51fc7a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="namespaceplaton.html#a80e2daff7f66073d3625df60fd01e9bc">u256</a> const &amp;_i) const</td></tr>
+<tr class="separator:ad52ddb68a5db638162dc4d8fcf51fc7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0681d2f2a570f446ce67058b98ea0cb5"><td class="memItemLeft" align="right" valign="top"><a id="a0681d2f2a570f446ce67058b98ea0cb5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (<a class="el" href="namespaceplaton.html#a80e2daff7f66073d3625df60fd01e9bc">u256</a> const &amp;_i) const</td></tr>
+<tr class="separator:a0681d2f2a570f446ce67058b98ea0cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0e8e48fef6f62f0e950c7430e4bd29"><td class="memItemLeft" align="right" valign="top"><a id="aeb0e8e48fef6f62f0e950c7430e4bd29"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="namespaceplaton.html#a941e5e138a1ffc40961025c2a6ce5fbd">bigint</a> const &amp;_i) const</td></tr>
+<tr class="separator:aeb0e8e48fef6f62f0e950c7430e4bd29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb6dca78ba04026e53e444af642af14"><td class="memItemLeft" align="right" valign="top"><a id="afdb6dca78ba04026e53e444af642af14"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (<a class="el" href="namespaceplaton.html#a941e5e138a1ffc40961025c2a6ce5fbd">bigint</a> const &amp;_i) const</td></tr>
+<tr class="separator:afdb6dca78ba04026e53e444af642af14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45193a64470feed4d62dab6816b63143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1RLP.html">RLP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a45193a64470feed4d62dab6816b63143">operator[]</a> (size_t _i) const</td></tr>
+<tr class="separator:a45193a64470feed4d62dab6816b63143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8bc74e806d8c8fb5732b8331f10c858"><td class="memItemLeft" align="right" valign="top"><a id="aa8bc74e806d8c8fb5732b8331f10c858"></a>
+<a class="el" href="classplaton_1_1RLP_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#aa8bc74e806d8c8fb5732b8331f10c858">begin</a> () const</td></tr>
+<tr class="memdesc:aa8bc74e806d8c8fb5732b8331f10c858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator into beginning of sub-item list (valid only if we are a list). <br /></td></tr>
+<tr class="separator:aa8bc74e806d8c8fb5732b8331f10c858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f70faa1d243c89517934b87ad2de5c"><td class="memItemLeft" align="right" valign="top"><a id="a82f70faa1d243c89517934b87ad2de5c"></a>
+<a class="el" href="classplaton_1_1RLP_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a82f70faa1d243c89517934b87ad2de5c">end</a> () const</td></tr>
+<tr class="memdesc:a82f70faa1d243c89517934b87ad2de5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator into end of sub-item list (valid only if we are a list). <br /></td></tr>
+<tr class="separator:a82f70faa1d243c89517934b87ad2de5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0641cc06be43376d01cda50d2c0f2a"><td class="memTemplParams" colspan="2"><a id="a8f0641cc06be43376d01cda50d2c0f2a"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8f0641cc06be43376d01cda50d2c0f2a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (int _flags) const</td></tr>
+<tr class="separator:a8f0641cc06be43376d01cda50d2c0f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa087af65c12aed1b2b1ad41c7cb7b226"><td class="memItemLeft" align="right" valign="top"><a id="aa087af65c12aed1b2b1ad41c7cb7b226"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#aa087af65c12aed1b2b1ad41c7cb7b226">operator std::string</a> () const</td></tr>
+<tr class="memdesc:aa087af65c12aed1b2b1ad41c7cb7b226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Best-effort conversion operators. <br /></td></tr>
+<tr class="separator:aa087af65c12aed1b2b1ad41c7cb7b226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0ac2089b7b17ed8bd6d9aa9908f415"><td class="memItemLeft" align="right" valign="top"><a id="a6a0ac2089b7b17ed8bd6d9aa9908f415"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator bytes</b> () const</td></tr>
+<tr class="separator:a6a0ac2089b7b17ed8bd6d9aa9908f415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d6d1741e70405ed2f26b078353f292"><td class="memItemLeft" align="right" valign="top"><a id="ab3d6d1741e70405ed2f26b078353f292"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator uint8_t</b> () const</td></tr>
+<tr class="separator:ab3d6d1741e70405ed2f26b078353f292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd7b6aa17956fd42696de47d2326cec"><td class="memItemLeft" align="right" valign="top"><a id="a6bd7b6aa17956fd42696de47d2326cec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator uint16_t</b> () const</td></tr>
+<tr class="separator:a6bd7b6aa17956fd42696de47d2326cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade89c36201838e619e8fdcc47fc49260"><td class="memItemLeft" align="right" valign="top"><a id="ade89c36201838e619e8fdcc47fc49260"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator uint32_t</b> () const</td></tr>
+<tr class="separator:ade89c36201838e619e8fdcc47fc49260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70462165b163696fd94202aab969a7c"><td class="memItemLeft" align="right" valign="top"><a id="ad70462165b163696fd94202aab969a7c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator uint64_t</b> () const</td></tr>
+<tr class="separator:ad70462165b163696fd94202aab969a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664b0cfa8ba15742f66f764a0a1da375"><td class="memItemLeft" align="right" valign="top"><a id="a664b0cfa8ba15742f66f764a0a1da375"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator u160</b> () const</td></tr>
+<tr class="separator:a664b0cfa8ba15742f66f764a0a1da375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0e139fd900baaa0221fdd5c49f711e"><td class="memItemLeft" align="right" valign="top"><a id="a3b0e139fd900baaa0221fdd5c49f711e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator u256</b> () const</td></tr>
+<tr class="separator:a3b0e139fd900baaa0221fdd5c49f711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22971334575c31645e9315f8a58a4186"><td class="memItemLeft" align="right" valign="top"><a id="a22971334575c31645e9315f8a58a4186"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator bigint</b> () const</td></tr>
+<tr class="separator:a22971334575c31645e9315f8a58a4186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3881c69a617ff7108d0d33e0c9f7f5c1"><td class="memTemplParams" colspan="2"><a id="a3881c69a617ff7108d0d33e0c9f7f5c1"></a>
+template&lt;unsigned N &gt; </td></tr>
+<tr class="memitem:a3881c69a617ff7108d0d33e0c9f7f5c1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator FixedHash&lt; N &gt;</b> () const</td></tr>
+<tr class="separator:a3881c69a617ff7108d0d33e0c9f7f5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa90a4ee75698356062283b111a25a4"><td class="memTemplParams" colspan="2"><a id="a8fa90a4ee75698356062283b111a25a4"></a>
+template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a8fa90a4ee75698356062283b111a25a4"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator std::pair&lt; T, U &gt;</b> () const</td></tr>
+<tr class="separator:a8fa90a4ee75698356062283b111a25a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9341fd006205db4a95012cd7c860f003"><td class="memTemplParams" colspan="2"><a id="a9341fd006205db4a95012cd7c860f003"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9341fd006205db4a95012cd7c860f003"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator std::vector&lt; T &gt;</b> () const</td></tr>
+<tr class="separator:a9341fd006205db4a95012cd7c860f003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a69ebd2102583118fc609cf7fab2df"><td class="memTemplParams" colspan="2"><a id="a33a69ebd2102583118fc609cf7fab2df"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a33a69ebd2102583118fc609cf7fab2df"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator std::set&lt; T &gt;</b> () const</td></tr>
+<tr class="separator:a33a69ebd2102583118fc609cf7fab2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0891f450992318384770f965ea2a642"><td class="memTemplParams" colspan="2"><a id="ad0891f450992318384770f965ea2a642"></a>
+template&lt;class T , size_t N&gt; </td></tr>
+<tr class="memitem:ad0891f450992318384770f965ea2a642"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator std::array&lt; T, N &gt;</b> () const</td></tr>
+<tr class="separator:ad0891f450992318384770f965ea2a642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc79f053c0642d7b0410639570e3a78"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a1bc79f053c0642d7b0410639570e3a78">toBytes</a> (int _flags=LaissezFaire) const</td></tr>
+<tr class="memdesc:a1bc79f053c0642d7b0410639570e3a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to bytearray.  <a href="#a1bc79f053c0642d7b0410639570e3a78">更多...</a><br /></td></tr>
+<tr class="separator:a1bc79f053c0642d7b0410639570e3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fabd6e22db25ca2004702c6fbc802d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a7fabd6e22db25ca2004702c6fbc802d9">toBytesConstRef</a> (int _flags=LaissezFaire) const</td></tr>
+<tr class="memdesc:a7fabd6e22db25ca2004702c6fbc802d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to bytearray.  <a href="#a7fabd6e22db25ca2004702c6fbc802d9">更多...</a><br /></td></tr>
+<tr class="separator:a7fabd6e22db25ca2004702c6fbc802d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade72a020a9e41fafae006f9470e62630"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#ade72a020a9e41fafae006f9470e62630">toString</a> (int _flags=LaissezFaire) const</td></tr>
+<tr class="memdesc:ade72a020a9e41fafae006f9470e62630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to string.  <a href="#ade72a020a9e41fafae006f9470e62630">更多...</a><br /></td></tr>
+<tr class="separator:ade72a020a9e41fafae006f9470e62630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2682864e156bffe6c6feafa34b9b79c9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a2682864e156bffe6c6feafa34b9b79c9">toStringStrict</a> () const</td></tr>
+<tr class="memdesc:a2682864e156bffe6c6feafa34b9b79c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to string.  <a href="#a2682864e156bffe6c6feafa34b9b79c9">更多...</a><br /></td></tr>
+<tr class="separator:a2682864e156bffe6c6feafa34b9b79c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b972d4d78c1e6cf9fb38bf49470ab6d"><td class="memTemplParams" colspan="2"><a id="a8b972d4d78c1e6cf9fb38bf49470ab6d"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8b972d4d78c1e6cf9fb38bf49470ab6d"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toVector</b> (int _flags=LaissezFaire) const</td></tr>
+<tr class="separator:a8b972d4d78c1e6cf9fb38bf49470ab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97434012399061f7d41ce7cea730b64"><td class="memTemplParams" colspan="2"><a id="af97434012399061f7d41ce7cea730b64"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:af97434012399061f7d41ce7cea730b64"><td class="memTemplItemLeft" align="right" valign="top">std::set&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toSet</b> (int _flags=LaissezFaire) const</td></tr>
+<tr class="separator:af97434012399061f7d41ce7cea730b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c98a329bc3115149d7f33c450474b2a"><td class="memTemplParams" colspan="2"><a id="a0c98a329bc3115149d7f33c450474b2a"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a0c98a329bc3115149d7f33c450474b2a"><td class="memTemplItemLeft" align="right" valign="top">std::unordered_set&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toUnorderedSet</b> (int _flags=LaissezFaire) const</td></tr>
+<tr class="separator:a0c98a329bc3115149d7f33c450474b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd17461a4de1a81adf036f8567c6e1f"><td class="memTemplParams" colspan="2"><a id="abcd17461a4de1a81adf036f8567c6e1f"></a>
+template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:abcd17461a4de1a81adf036f8567c6e1f"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toPair</b> (int _flags=Strict) const</td></tr>
+<tr class="separator:abcd17461a4de1a81adf036f8567c6e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d932ed89813de59fd52d72f8b6874e3"><td class="memTemplParams" colspan="2"><a id="a5d932ed89813de59fd52d72f8b6874e3"></a>
+template&lt;class T , size_t N&gt; </td></tr>
+<tr class="memitem:a5d932ed89813de59fd52d72f8b6874e3"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; T, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toArray</b> (int _flags=LaissezFaire) const</td></tr>
+<tr class="separator:a5d932ed89813de59fd52d72f8b6874e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90bdaccac68ccf65beafb53073242932"><td class="memTemplParams" colspan="2">template&lt;class _T  = unsigned&gt; </td></tr>
+<tr class="memitem:a90bdaccac68ccf65beafb53073242932"><td class="memTemplItemLeft" align="right" valign="top">_T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a90bdaccac68ccf65beafb53073242932">toInt</a> (int _flags=Strict) const</td></tr>
+<tr class="memdesc:a90bdaccac68ccf65beafb53073242932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to int of type given; if <a class="el" href="classplaton_1_1RLP.html#ad6e79010ac8953556d84c8a3b50f54ee" title="String value.">isData()</a>, decodes as big-endian bytestream.  <a href="#a90bdaccac68ccf65beafb53073242932">更多...</a><br /></td></tr>
+<tr class="separator:a90bdaccac68ccf65beafb53073242932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72adbb77dbf8c6badb9303282c777fda"><td class="memItemLeft" align="right" valign="top"><a id="a72adbb77dbf8c6badb9303282c777fda"></a>
+int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>toPositiveInt64</b> (int _flags=Strict) const</td></tr>
+<tr class="separator:a72adbb77dbf8c6badb9303282c777fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46799ccd8ae22ed1aa5def6cbd161338"><td class="memTemplParams" colspan="2"><a id="a46799ccd8ae22ed1aa5def6cbd161338"></a>
+template&lt;class _N &gt; </td></tr>
+<tr class="memitem:a46799ccd8ae22ed1aa5def6cbd161338"><td class="memTemplItemLeft" align="right" valign="top">_N&#160;</td><td class="memTemplItemRight" valign="bottom"><b>toHash</b> (int _flags=Strict) const</td></tr>
+<tr class="separator:a46799ccd8ae22ed1aa5def6cbd161338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06740a9a99761be687545e98e73635c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#ab06740a9a99761be687545e98e73635c">payload</a> () const</td></tr>
+<tr class="separator:ab06740a9a99761be687545e98e73635c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4617e2348a5b759d9561fcf6694b945a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplaton_1_1RLP.html#a4617e2348a5b759d9561fcf6694b945a">actualSize</a> () const</td></tr>
+<tr class="separator:a4617e2348a5b759d9561fcf6694b945a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Class for interpreting Recursive Linear-Prefix Data. </p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a id="a4617e2348a5b759d9561fcf6694b945a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4617e2348a5b759d9561fcf6694b945a">&#9670;&nbsp;</a></span>actualSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t platon::RLP::actualSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the theoretical size of this item as encoded in the data. </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>Under normal circumstances, is equivalent to m_data.size() - use that unless you know it won't work. </dd></dl>
+
+</div>
+</div>
+<a id="a241095e84ce42e4c54c96f28abbae8bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a241095e84ce42e4c54c96f28abbae8bc">&#9670;&nbsp;</a></span>itemCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t platon::RLP::itemCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the number of items in the list, or zero if it isn't a list. </dd></dl>
+
+</div>
+</div>
+<a id="a86739630be285abad561783f32d65fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86739630be285abad561783f32d65fb2">&#9670;&nbsp;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">platon::RLP::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>true if the <a class="el" href="classplaton_1_1RLP.html">RLP</a> is non-null. </dd></dl>
+
+</div>
+</div>
+<a id="a45193a64470feed4d62dab6816b63143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45193a64470feed4d62dab6816b63143">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1RLP.html">RLP</a> platon::RLP::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>_i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Subscript operator. </p><dl class="section return"><dt>返回</dt><dd>the list item <em>_i</em> if <a class="el" href="classplaton_1_1RLP.html#a91ff80d14e128184df5bbd2726c0e3e2" title="List value.">isList()</a> and <em>_i</em> &lt; listItems(), or <a class="el" href="classplaton_1_1RLP.html#a88d476bbc0427ba2aa754025ff90cf52" title="Construct a null node.">RLP()</a> otherwise. </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>if used to access items in ascending order, this is efficient. </dd></dl>
+
+</div>
+</div>
+<a id="ab06740a9a99761be687545e98e73635c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06740a9a99761be687545e98e73635c">&#9670;&nbsp;</a></span>payload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a> platon::RLP::payload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the data payload. Valid for all types. </dd></dl>
+
+</div>
+</div>
+<a id="a08f1726bc49887849c00cce50c58d531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f1726bc49887849c00cce50c58d531">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t platon::RLP::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>the number of bytes in the data, or zero if it isn't data. </dd></dl>
+
+</div>
+</div>
+<a id="a1bc79f053c0642d7b0410639570e3a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc79f053c0642d7b0410639570e3a78">&#9670;&nbsp;</a></span>toBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bytes platon::RLP::toBytes </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code>LaissezFaire</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts to bytearray. </p>
+<dl class="section return"><dt>返回</dt><dd>the empty byte array if not a string. </dd></dl>
+
+</div>
+</div>
+<a id="a7fabd6e22db25ca2004702c6fbc802d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fabd6e22db25ca2004702c6fbc802d9">&#9670;&nbsp;</a></span>toBytesConstRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classplaton_1_1vector__ref.html">bytesConstRef</a> platon::RLP::toBytesConstRef </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code>LaissezFaire</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts to bytearray. </p>
+<dl class="section return"><dt>返回</dt><dd>the empty byte array if not a string. </dd></dl>
+
+</div>
+</div>
+<a id="a90bdaccac68ccf65beafb53073242932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90bdaccac68ccf65beafb53073242932">&#9670;&nbsp;</a></span>toInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class _T  = unsigned&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">_T platon::RLP::toInt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code>Strict</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts to int of type given; if <a class="el" href="classplaton_1_1RLP.html#ad6e79010ac8953556d84c8a3b50f54ee" title="String value.">isData()</a>, decodes as big-endian bytestream. </p>
+<dl class="section return"><dt>返回</dt><dd>0 if not an int or data. </dd></dl>
+
+</div>
+</div>
+<a id="ade72a020a9e41fafae006f9470e62630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade72a020a9e41fafae006f9470e62630">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string platon::RLP::toString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_flags</em> = <code>LaissezFaire</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts to string. </p>
+<dl class="section return"><dt>返回</dt><dd>the empty string if not a string. </dd></dl>
+
+</div>
+</div>
+<a id="a2682864e156bffe6c6feafa34b9b79c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2682864e156bffe6c6feafa34b9b79c9">&#9670;&nbsp;</a></span>toStringStrict()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string platon::RLP::toStringStrict </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts to string. </p>
+<dl class="exception"><dt>异常</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">BadCast</td><td>if not a string. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>platonlib/include/platon/<a class="el" href="RLP_8h_source.html">RLP.h</a></li>
+<li>platonlib/src/RLP.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
